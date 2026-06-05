@@ -103,6 +103,58 @@ Full bios are available on the [Organization page]({{ '/organization/' | relativ
 
 ---
 
+### Invited Speakers
+
+<div style="display:flex; justify-content:center; align-items:flex-start; gap:1.5rem; flex-wrap:wrap; margin-bottom:3rem;">
+
+  <div style="text-align:center; width:160px;">
+    <img src="{{ '/assets/img/people/xiaofeng.jpg' | relative_url }}"
+         alt="Xiaofeng Wang" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Xiaofeng Wang</strong><br><em>Cleveland Clinic, USA</em>
+  </div>
+
+  <div style="text-align:center; width:160px;">
+    <img src="{{ '/assets/img/people/robert.jpg' | relative_url }}"
+         alt="Robert Davis" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Robert Davis</strong><br><em>University of Tennessee Health Science Center, USA</em>
+  </div>
+
+  <div style="text-align:center; width:160px;">
+    <img src="{{ '/assets/img/people/anant.jpg' | relative_url }}"
+         alt="Anant Madabhushi" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Anant Madabhushi</strong><br><em>Georgia Tech &amp; Emory University, USA</em>
+  </div>
+
+  <div style="text-align:center; width:160px;">
+    <img src="{{ '/assets/img/people/ritambhara.jpg' | relative_url }}"
+         alt="Ritambhara Singh" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Ritambhara Singh</strong><br><em>Brown University, USA</em>
+  </div>
+
+  <div style="text-align:center; width:160px;">
+    <img src="{{ '/assets/img/people/vipin.jpg' | relative_url }}"
+         alt="Vipin Chaudhary" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Vipin Chaudhary</strong><br><em>Case Western Reserve University, USA</em>
+  </div>
+
+  <div style="text-align:center; width:160px;">
+    <img src="{{ '/assets/img/people/satish.jpg' | relative_url }}"
+         alt="Satish E. Viswanath" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Satish E. Viswanath</strong><br><em>Emory University, USA</em>
+  </div>
+
+  <div style="text-align:center; width:160px;">
+    <img src="{{ '/assets/img/people/jing.jpg' | relative_url }}"
+         alt="Jing Li" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Jing Li</strong><br><em>Case Western Reserve University, USA</em>
+  </div>
+
+</div>
+
+Full speaker details on the [Speakers page]({{ '/speakers/' | relative_url }}).
+
+---
+
 ## Participation
 
 ReAL-Health welcomes original short papers, extended abstracts, deployment experience reports, datasets, benchmarks, and position papers. Speculative work and negative results are explicitly in scope.
@@ -132,12 +184,94 @@ Full details on the [Call for Participation page]({{ '/call-for-papers/' | relat
 
 ---
 
-### Invited Speakers
-
-The confirmed invited speakers include leading voices from medical AI, biomedical informatics, healthcare privacy, and genomics. See the full slate on the [Speakers page]({{ '/speakers/' | relative_url }}).
-
----
-
 ### Program
 
 The full one-day program spans approximately 8 hours, mixing keynotes, contributed sessions, poster sessions, a panel, and a cross-community working discussion. See the [Schedule page]({{ '/schedule/' | relative_url }}).
+
+---
+
+### Technical Program Committee Members
+
+<div style="display:flex; justify-content:center; align-items:flex-start; gap:1.5rem; flex-wrap:wrap; margin-bottom:3rem;">
+
+  <div style="text-align:center; width:170px;">
+    <img src="{{ '/assets/img/people/akond.jpg' | relative_url }}"
+         alt="Akond Rahman" style="width:120px; height:120px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Akond Rahman</strong><br><em>Auburn University, USA</em>
+  </div>
+
+  <div style="text-align:center; width:170px;">
+    <img src="{{ '/assets/img/people/giang.jpg' | relative_url }}"
+         alt="Giang Nguyen" style="width:120px; height:120px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Giang Nguyen</strong><br><em>Meta Inc., USA</em>
+  </div>
+
+  <div style="text-align:center; width:170px;">
+    <img src="{{ '/assets/img/people/gias.jpg' | relative_url }}"
+         alt="Gias Uddin" style="width:120px; height:120px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Gias Uddin</strong><br><em>York University, Canada</em>
+  </div>
+
+  <div style="text-align:center; width:170px;">
+    <img src="{{ '/assets/img/people/hongjin.jpg' | relative_url }}"
+         alt="Hong Jin Kang" style="width:120px; height:120px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Hong Jin Kang</strong><br><em>University of Sydney, Australia</em>
+  </div>
+
+  <div style="text-align:center; width:170px;">
+    <img src="{{ '/assets/img/people/iftekhar.jpg' | relative_url }}"
+         alt="Iftekhar Ahmed" style="width:120px; height:120px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Iftekhar Ahmed</strong><br><em>University of California, Irvine, USA</em>
+  </div>
+
+  <div style="text-align:center; width:170px;">
+    <img src="{{ '/assets/img/people/jaydeb.jpg' | relative_url }}"
+         alt="Jaydeb Sarker" style="width:120px; height:120px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Jaydeb Sarker</strong><br><em>University of Nebraska at Omaha, USA</em>
+  </div>
+
+  <div style="text-align:center; width:170px;">
+    <img src="{{ '/assets/img/people/masud.jpg' | relative_url }}"
+         alt="Masud Rahman" style="width:120px; height:120px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Masud Rahman</strong><br><em>Dalhousie University, Canada</em>
+  </div>
+
+  <div style="text-align:center; width:170px;">
+    <img src="{{ '/assets/img/people/saikat.jpg' | relative_url }}"
+         alt="Saikat Dutta" style="width:120px; height:120px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Saikat Dutta</strong><br><em>Cornell University, USA</em>
+  </div>
+
+  <div style="text-align:center; width:170px;">
+    <img src="{{ '/assets/img/people/samantha.jpg' | relative_url }}"
+         alt="Samantha S. Khairunnesa" style="width:120px; height:120px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Samantha S. Khairunnesa</strong><br><em>Bradley University, USA</em>
+  </div>
+
+  <div style="text-align:center; width:170px;">
+    <img src="{{ '/assets/img/people/yining.jpg' | relative_url }}"
+         alt="Yining She" style="width:120px; height:120px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Yining She</strong><br><em>Carnegie Mellon University, USA</em>
+  </div>
+
+  <div style="text-align:center; width:170px;">
+    <img src="{{ '/assets/img/people/mohammad.jpg' | relative_url }}"
+         alt="Mohammad Wardat" style="width:120px; height:120px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Mohammad Wardat</strong><br><em>Oakland University, USA</em>
+  </div>
+
+  <div style="text-align:center; width:170px;">
+    <img src="{{ '/assets/img/people/breno.jpg' | relative_url }}"
+         alt="Breno Dantas Cruz" style="width:120px; height:120px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Breno Dantas Cruz</strong><br><em>Tulane University, USA</em>
+  </div>
+
+  <div style="text-align:center; width:170px;">
+    <img src="{{ '/assets/img/people/sayma.jpg' | relative_url }}"
+         alt="Sayma Sultana" style="width:120px; height:120px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Sayma Sultana</strong><br><em>Tulane University, USA</em>
+  </div>
+
+</div>
+
+The full program committee is listed on the [Organization page]({{ '/organization/' | relative_url }}).
