@@ -56,13 +56,13 @@ ReAL-Health convenes the machine learning, healthcare informatics, formal-method
 <div style="display:flex; justify-content:center; align-items:flex-start; gap:1.5rem; flex-wrap:wrap; margin-bottom:3rem;">
 
   <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/md_tauhidul_islam.png' | relative_url }}"
+    <img src="{{ '/assets/img/people/islam.png' | relative_url }}"
          alt="Md Tauhidul Islam" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
     <br><strong>Dr. Md Tauhidul Islam</strong><br><em>Stanford University, USA</em>
   </div>
 
   <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/avanti_bhandarkar.jpeg' | relative_url }}"
+    <img src="{{ '/assets/img/people/avanti.jpg' | relative_url }}"
          alt="Avanti Bhandarkar" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
     <br><strong>Dr. Avanti Bhandarkar</strong><br><em>Mayo Clinic, USA</em>
   </div>
@@ -74,7 +74,7 @@ ReAL-Health convenes the machine learning, healthcare informatics, formal-method
   </div>
 
   <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/amit_kumar_sikder.jpg' | relative_url }}"
+    <img src="{{ '/assets/img/people/amit.jpg' | relative_url }}"
          alt="Amit Kumar Sikder" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
     <br><strong>Dr. Amit Kumar Sikder</strong><br><em>Iowa State University, USA</em>
   </div>
