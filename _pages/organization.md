@@ -23,7 +23,7 @@ nav_order: 5
   </div>
 
   <div class="team-member" style="text-align:center; max-width:320px;">
-    <img src="{{ '/assets/img/people/avanti.jpeg' | relative_url }}"
+    <img src="{{ '/assets/img/people/avanti.jpg' | relative_url }}"
          alt="Avanti Bhandarkar" style="width:200px; height:200px; object-fit:cover; border-radius:50%;" />
     <h3>Dr. Avanti Bhandarkar</h3>
     <p>Research Fellow<br>
