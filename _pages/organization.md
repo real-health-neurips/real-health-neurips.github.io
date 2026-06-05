@@ -14,7 +14,7 @@ nav_order: 5
      style="display:flex; justify-content:center; align-items:flex-start; gap:2rem; flex-wrap:wrap;">
 
   <div class="team-member" style="text-align:center; max-width:320px;">
-    <img src="{{ '/assets/img/people/md_tauhidul_islam.svg' | relative_url }}"
+    <img src="{{ '/assets/img/people/md_tauhidul_islam.png' | relative_url }}"
          alt="Md Tauhidul Islam" style="width:200px; height:200px; object-fit:cover; border-radius:50%;" />
     <h3>Dr. Md Tauhidul Islam</h3>
     <p>Assistant Professor, Department of Radiation Oncology, Division of Medical Physics<br>
@@ -23,7 +23,7 @@ nav_order: 5
   </div>
 
   <div class="team-member" style="text-align:center; max-width:320px;">
-    <img src="{{ '/assets/img/people/avanti_bhandarkar.svg' | relative_url }}"
+    <img src="{{ '/assets/img/people/avanti_bhandarkar.jpeg' | relative_url }}"
          alt="Avanti Bhandarkar" style="width:200px; height:200px; object-fit:cover; border-radius:50%;" />
     <h3>Dr. Avanti Bhandarkar</h3>
     <p>Research Fellow<br>
@@ -42,7 +42,7 @@ nav_order: 5
   </div>
 
   <div class="team-member" style="text-align:center; max-width:320px;">
-    <img src="{{ '/assets/img/people/amit_kumar_sikder.svg' | relative_url }}"
+    <img src="{{ '/assets/img/people/amit_kumar_sikder.jpg' | relative_url }}"
          alt="Amit Kumar Sikder" style="width:200px; height:200px; object-fit:cover; border-radius:50%;" />
     <h3>Dr. Amit Kumar Sikder</h3>
     <p>Assistant Professor, Department of Computer Science<br>
