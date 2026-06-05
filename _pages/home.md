@@ -21,7 +21,7 @@ nav_order: 1
 <div style="text-align:center; margin-bottom:2.5rem; padding:2.5rem 1rem; border-radius:14px;
             background:linear-gradient(135deg,#0EA5A5 0%,#066B82 100%); color:#fff;">
   <div style="font-size:1.35rem; font-weight:600;">A NeurIPS 2026 Workshop</div>
-  <div style="font-size:1.05rem; margin-top:0.5rem;">December 2026 &nbsp;&bull;&nbsp; Venue TBA (Atlanta, Paris, or Sydney)</div>
+  <div style="font-size:1.05rem; margin-top:0.5rem;">December 2026 &nbsp;&bull;&nbsp; Venue TBA (Atlanta)</div>
   <div style="font-size:0.95rem; margin-top:0.6rem; opacity:0.95;">From research to bedside: making AI in healthcare reliable, verifiable, private, and safe enough to deploy.</div>
 </div>
 
