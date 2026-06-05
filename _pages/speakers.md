@@ -13,7 +13,7 @@ All six invited speakers have confirmed their participation. Talk titles and abs
 <div class="team-container" style="display: flex; flex-direction: column; gap: 1.8rem; margin-top: 1.5rem;">
 
   <div class="team-member" style="display: flex; align-items: flex-start; gap: 1.2rem;">
-    <img src="{{ '/assets/img/people/anant_madabhushi.svg' | relative_url }}"
+    <img src="{{ '/assets/img/people/anant_madabhushi.jpg' | relative_url }}"
          alt="Anant Madabhushi"
          style="width: 130px; height: 130px; object-fit: cover; border-radius: 50%; flex-shrink: 0;" />
     <div class="speaker-info" style="text-align: left;">
@@ -26,7 +26,7 @@ All six invited speakers have confirmed their participation. Talk titles and abs
   </div>
 
   <div class="team-member" style="display: flex; align-items: flex-start; gap: 1.2rem;">
-    <img src="{{ '/assets/img/people/vipin_chaudhary.svg' | relative_url }}"
+    <img src="{{ '/assets/img/people/vipin_chaudhary.jpg' | relative_url }}"
          alt="Vipin Chaudhary"
          style="width: 130px; height: 130px; object-fit: cover; border-radius: 50%; flex-shrink: 0;" />
     <div class="speaker-info" style="text-align: left;">
@@ -39,7 +39,7 @@ All six invited speakers have confirmed their participation. Talk titles and abs
   </div>
 
   <div class="team-member" style="display: flex; align-items: flex-start; gap: 1.2rem;">
-    <img src="{{ '/assets/img/people/jing_li.svg' | relative_url }}"
+    <img src="{{ '/assets/img/people/jing_li.jpg' | relative_url }}"
          alt="Jing Li"
          style="width: 130px; height: 130px; object-fit: cover; border-radius: 50%; flex-shrink: 0;" />
     <div class="speaker-info" style="text-align: left;">
@@ -52,7 +52,7 @@ All six invited speakers have confirmed their participation. Talk titles and abs
   </div>
 
   <div class="team-member" style="display: flex; align-items: flex-start; gap: 1.2rem;">
-    <img src="{{ '/assets/img/people/robert_davis.svg' | relative_url }}"
+    <img src="{{ '/assets/img/people/robert_davis.jpg' | relative_url }}"
          alt="Robert Davis"
          style="width: 130px; height: 130px; object-fit: cover; border-radius: 50%; flex-shrink: 0;" />
     <div class="speaker-info" style="text-align: left;">
@@ -65,7 +65,7 @@ All six invited speakers have confirmed their participation. Talk titles and abs
   </div>
 
   <div class="team-member" style="display: flex; align-items: flex-start; gap: 1.2rem;">
-    <img src="{{ '/assets/img/people/erman_ayday.svg' | relative_url }}"
+    <img src="{{ '/assets/img/people/erman_ayday.jpg' | relative_url }}"
          alt="Erman Ayday"
          style="width: 130px; height: 130px; object-fit: cover; border-radius: 50%; flex-shrink: 0;" />
     <div class="speaker-info" style="text-align: left;">
@@ -78,7 +78,7 @@ All six invited speakers have confirmed their participation. Talk titles and abs
   </div>
 
   <div class="team-member" style="display: flex; align-items: flex-start; gap: 1.2rem;">
-    <img src="{{ '/assets/img/people/ritambhara_singh.svg' | relative_url }}"
+    <img src="{{ '/assets/img/people/ritambhara_singh.jpg' | relative_url }}"
          alt="Ritambhara Singh"
          style="width: 130px; height: 130px; object-fit: cover; border-radius: 50%; flex-shrink: 0;" />
     <div class="speaker-info" style="text-align: left;">
