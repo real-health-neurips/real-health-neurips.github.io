@@ -9,8 +9,8 @@ nav_title: "Schedule"
 
 # Preliminary Schedule
 
-<p><strong>Date:</strong> December 2026 (specific day TBA after NeurIPS venue assignment)<br>
-<strong>Venue:</strong> TBA, NeurIPS 2026 (Atlanta, Paris, or Sydney)<br>
+<p><strong>Date:</strong> December 2026, pending NeurIPS workshop acceptance (notification July 11, 2026)<br>
+<strong>Venue:</strong> Atlanta (pending NeurIPS venue assignment)<br>
 <strong>Duration:</strong> One day, approximately 8 hours, in person</p>
 
 <p>The format prioritizes discussion and cross-community exchange. Organizers introduce and moderate but do not give talks, per NeurIPS COI policy.</p>
