@@ -9,9 +9,7 @@ nav_title: "CFP"
 
 # Call for Participation
 
-**ReAL-Health 2026: Reliable AI in Healthcare**, a one-day workshop proposed for NeurIPS 2026, will invite contributions that advance the engineering of reliable, verifiable, private, and safe AI for clinical deployment. We emphasize actionable techniques, evidence (tests, metrics, logs, proofs, regulatory alignment), and open artifacts (benchmarks, datasets, evaluation protocols, red-teaming playbooks). The workshop deliberately bridges theory and practice and welcomes speculative work and work in progress alongside completed results.
-
-> **Note:** This Call for Participation will become active upon NeurIPS workshop acceptance. Notification of acceptance is expected on **July 11, 2026**. Submission and program details below describe the planned workshop and will be confirmed at that time.
+**ReAL-Health 2026: Reliable AI in Healthcare**, a one-day workshop at NeurIPS 2026, invites contributions that advance the engineering of reliable, verifiable, private, and safe AI for clinical deployment. We emphasize actionable techniques, evidence (tests, metrics, logs, proofs, regulatory alignment), and open artifacts (benchmarks, datasets, evaluation protocols, red-teaming playbooks). The workshop deliberately bridges theory and practice and welcomes speculative work and work in progress alongside completed results.
 
 ---
 
@@ -53,6 +51,12 @@ We welcome submissions on either or both complementary directions, plus cross-cu
 - **Scope.** Work already finalized at the NeurIPS main conference or other ML venues is out of scope per NeurIPS workshop policy; deployment experience and negative results are explicitly in scope.
 - **Archival status.** Non-archival per NeurIPS workshop policy. Accepted contributions may appear on OpenReview and the workshop site at authors' option.
 - **In-person policy.** Per NeurIPS, the workshop is in person; up to 1 hour of remote presentation may be allowed for unforeseen emergencies.
+
+---
+
+## Shared Task
+
+Beyond paper submissions, the workshop hosts a **community shared task on reliability and safety in patient-facing LLMs**, built on HealthBench, with safety-evaluation and red-teaming tracks. Top systems present spotlight talks at the workshop. Participation does not require a paper. See the dedicated [Shared Task page]({{ '/shared-task/' | relative_url }}) for task description, tracks, evaluation protocol, and timeline.
 
 ---
 
