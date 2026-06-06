@@ -51,4 +51,4 @@ Participation does not require a paper submission to the main workshop track. Te
 
 ## Organizers
 
-The shared task is co-led by members of the organizing committee with healthcare and clinical-AI backgrounds, with **Dr. Avanti Bhandarkar** (Mayo Clinic) as the primary task chair. For questions about the shared task before launch, please contact [bhandarkar.avanti@mayo.edu](mailto:bhandarkar.avanti@mayo.edu) or any of the [workshop organizers]({{ '/contact/' | relative_url }}).
+For questions about the shared task before launch, please contact the [workshop organizers]({{ '/contact/' | relative_url }}).
