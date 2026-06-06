@@ -192,86 +192,45 @@ The full one-day program spans approximately 8 hours, mixing keynotes, contribut
 
 ### Technical Program Committee Members
 
-<div style="display:flex; justify-content:center; align-items:flex-start; gap:1.5rem; flex-wrap:wrap; margin-bottom:3rem;">
+Our Technical Program Committee comprises researchers spanning machine learning reliability, clinical informatics, security and privacy, federated learning, and software engineering for AI. Members below have confirmed their participation in reviewing for ReAL-Health 2026.
 
-  <div style="text-align:center; width:170px;">
-    <img src="{{ '/assets/img/people/akond.jpg' | relative_url }}"
-         alt="Akond Rahman" style="width:120px; height:120px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Akond Rahman</strong><br><em>Auburn University, USA</em>
-  </div>
+<div style="columns: 2; -webkit-columns: 2; -moz-columns: 2; column-gap: 2rem; font-size: 0.95rem; margin-top: 1rem; margin-bottom: 2rem;">
 
-  <div style="text-align:center; width:170px;">
-    <img src="{{ '/assets/img/people/giang.jpg' | relative_url }}"
-         alt="Giang Nguyen" style="width:120px; height:120px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Giang Nguyen</strong><br><em>Meta Inc., USA</em>
-  </div>
-
-  <div style="text-align:center; width:170px;">
-    <img src="{{ '/assets/img/people/gias.jpg' | relative_url }}"
-         alt="Gias Uddin" style="width:120px; height:120px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Gias Uddin</strong><br><em>York University, Canada</em>
-  </div>
-
-  <div style="text-align:center; width:170px;">
-    <img src="{{ '/assets/img/people/hongjin.jpg' | relative_url }}"
-         alt="Hong Jin Kang" style="width:120px; height:120px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Hong Jin Kang</strong><br><em>University of Sydney, Australia</em>
-  </div>
-
-  <div style="text-align:center; width:170px;">
-    <img src="{{ '/assets/img/people/iftekhar.jpg' | relative_url }}"
-         alt="Iftekhar Ahmed" style="width:120px; height:120px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Iftekhar Ahmed</strong><br><em>University of California, Irvine, USA</em>
-  </div>
-
-  <div style="text-align:center; width:170px;">
-    <img src="{{ '/assets/img/people/jaydeb.jpg' | relative_url }}"
-         alt="Jaydeb Sarker" style="width:120px; height:120px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Jaydeb Sarker</strong><br><em>University of Nebraska at Omaha, USA</em>
-  </div>
-
-  <div style="text-align:center; width:170px;">
-    <img src="{{ '/assets/img/people/masud.jpg' | relative_url }}"
-         alt="Masud Rahman" style="width:120px; height:120px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Masud Rahman</strong><br><em>Dalhousie University, Canada</em>
-  </div>
-
-  <div style="text-align:center; width:170px;">
-    <img src="{{ '/assets/img/people/saikat.jpg' | relative_url }}"
-         alt="Saikat Dutta" style="width:120px; height:120px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Saikat Dutta</strong><br><em>Cornell University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:170px;">
-    <img src="{{ '/assets/img/people/samantha.jpg' | relative_url }}"
-         alt="Samantha S. Khairunnesa" style="width:120px; height:120px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Samantha S. Khairunnesa</strong><br><em>Bradley University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:170px;">
-    <img src="{{ '/assets/img/people/yining.jpg' | relative_url }}"
-         alt="Yining She" style="width:120px; height:120px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Yining She</strong><br><em>Carnegie Mellon University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:170px;">
-    <img src="{{ '/assets/img/people/mohammad.jpg' | relative_url }}"
-         alt="Mohammad Wardat" style="width:120px; height:120px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Mohammad Wardat</strong><br><em>Oakland University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:170px;">
-    <img src="{{ '/assets/img/people/breno.jpg' | relative_url }}"
-         alt="Breno Dantas Cruz" style="width:120px; height:120px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Breno Dantas Cruz</strong><br><em>Tulane University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:170px;">
-    <img src="{{ '/assets/img/people/sayma.jpg' | relative_url }}"
-         alt="Sayma Sultana" style="width:120px; height:120px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Sayma Sultana</strong><br><em>Tulane University, USA</em>
-  </div>
+- Rahul Singh, Assistant Professor, University of Rhode Island
+- Dalal Alharthi, Assistant Professor, The University of Arizona
+- Praneeth Narayanamurthy, Senior Data Scientist, Alcon
+- Niloufar Alipour Talemi, Research Associate, Clemson University
+- Sayeed Shafayet Chowdhury, Assistant Professor, Indiana University
+- Ratna Kandala, Postdoctoral Researcher, University of Kansas
+- Mahmoud Nazzal, Assistant Professor, Old Dominion University
+- Farah Ferdaus, Assistant Professor, Lamar University
+- Akram Mohammed, Bioinformatics Manager, University of Tennessee Health Science Center
+- Aruna Jayasena, Assistant Professor, University of Massachusetts Amherst
+- Filiz Bunyak Ersoy, Assistant Professor, University of Missouri
+- Zhonghao Liao, Assistant Professor, Milwaukee School of Engineering
+- Silpa Babu, Postdoctoral Researcher, University of Iowa
+- Amit Seal Ami, Assistant Professor, University of South Florida
+- Nigar Khasayeva, PhD Student, Georgia State University
+- Breno Dantas Cruz, Postdoc, Tulane University
+- An Wang, Assistant Professor, Case Western Reserve University
+- Erman Ayday, Associate Professor, Case Western Reserve University
+- Nasik Muhammad Nafi, Postdoctoral Researcher, Oak Ridge National Laboratory
+- Emad Shihab, Professor, Concordia University
+- Sayma Sultana, Postdoc, Tulane University
+- Gias Uddin, Associate Professor, York University
+- Kevin Xu, Assistant Professor, Case Western Reserve University
+- Jaydeb Sarker, Assistant Professor, University of Nebraska at Omaha
+- Abdullah Al Maruf, Assistant Professor, California State University
+- Yu Yin, Assistant Professor, Case Western Reserve University
+- Iftekhar Ahmed, Associate Professor, University of California, Irvine
+- Sanmukh Kuppannagari, Assistant Professor, Case Western Reserve University
+- Masud Rahman, Associate Professor, Dalhousie University
+- Soumya Ray, Associate Professor, Case Western Reserve University
+- Jing Ma, Assistant Professor, Case Western Reserve University
+- Yining She, Ph.D. Student, Carnegie Mellon University
+- Shuai Xu, Associate Professor, Case Western Reserve University
+- Feixiong Cheng, Postdoctoral Fellow, Cleveland Clinic
 
 </div>
 
-The full program committee is listed on the [Organization page]({{ '/organization/' | relative_url }}).
+The full program committee is also listed on the [Organization page]({{ '/organization/' | relative_url }}).
