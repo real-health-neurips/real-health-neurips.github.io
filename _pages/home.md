@@ -182,6 +182,12 @@ ReAL-Health welcomes original short papers, extended abstracts, deployment exper
 
 Full details on the [Call for Participation page]({{ '/call-for-papers/' | relative_url }}).
 
+### Shared Task
+
+ReAL-Health 2026 will host a community shared task on **reliability and safety in patient-facing LLMs**, built on the publicly available HealthBench rubric. Participants train or prompt models, or build safety guardrails, evaluated against physician-written rubrics covering safety, factuality, refusal behavior, and communication. Top systems present spotlight talks at the workshop, and **Best System** and **Best Student System** awards will be announced at closing. Participation does not require a paper submission.
+
+Full task details, dataset, and timeline on the [Shared Task page]({{ '/shared-task/' | relative_url }}).
+
 ---
 
 ### Program
