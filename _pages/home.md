@@ -20,14 +20,14 @@ nav_order: 1
 <!-- Hero banner -->
 <div style="text-align:center; margin-bottom:2.5rem; padding:2.5rem 1rem; border-radius:14px;
             background:linear-gradient(135deg,#0EA5A5 0%,#066B82 100%); color:#fff;">
-  <div style="font-size:1.35rem; font-weight:600;">A NeurIPS 2026 Workshop</div>
-  <div style="font-size:1.05rem; margin-top:0.5rem;">December 2026 &nbsp;&bull;&nbsp; Venue TBA (Atlanta)</div>
+  <div style="font-size:1.35rem; font-weight:600;">Proposed for NeurIPS 2026</div>
+  <div style="font-size:1.05rem; margin-top:0.5rem;">December 2026 &nbsp;&bull;&nbsp; Atlanta &nbsp;&bull;&nbsp; Pending acceptance</div>
   <div style="font-size:0.95rem; margin-top:0.6rem; opacity:0.95;">From research to bedside: making AI in healthcare reliable, verifiable, private, and safe enough to deploy.</div>
 </div>
 
 ## Welcome
 
-Welcome to **ReAL-Health 2026: Reliable AI in Healthcare**, a one-day workshop at the **39th Annual Conference on Neural Information Processing Systems (NeurIPS 2026)**.
+Welcome to **ReAL-Health 2026: Reliable AI in Healthcare**, a one-day workshop proposed for the **39th Annual Conference on Neural Information Processing Systems (NeurIPS 2026)**.
 
 Healthcare is the highest-stakes deployment frontier for modern AI. Foundation models and clinical large language models (LLMs) are entering triage, charting, prior authorization, summarization, decision support, and increasingly multi-step agentic workflows. Yet the techniques that make a model accurate on a benchmark are not the techniques that make it *deployable at the bedside*. Clinical deployment demands properties the broader ML community treats as secondary: calibrated uncertainty, faithful grounding in the patient record, fairness across protected and intersectional groups, robust behavior under distribution shift, privacy that survives federation and the right to be forgotten, security against adversarial manipulation of inputs and connected devices, traceable explanations that clinicians and regulators can audit, and meaningful human oversight when an agent acts on a patient's behalf.
 
@@ -42,8 +42,8 @@ ReAL-Health convenes the machine learning, healthcare informatics, formal-method
   <a href="https://neurips.cc/Conferences/2026">NeurIPS 2026</a> Workshop
 </p>
 
-**Workshop date:** December 2026 (specific day TBA after NeurIPS venue assignment)
-**Location:** TBA, one of NeurIPS 2026's venues (Atlanta, Paris, or Sydney)
+**Workshop date:** December 2026, pending NeurIPS workshop acceptance (notification July 11, 2026)
+**Location:** Atlanta (pending NeurIPS venue assignment)
 **Format:** In-person, approximately 8 hours
 **Primary contacts:** sumon@case.edu, shibbir@txstate.edu
 
