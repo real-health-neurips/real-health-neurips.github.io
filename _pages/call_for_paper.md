@@ -9,7 +9,9 @@ nav_title: "CFP"
 
 # Call for Participation
 
-**ReAL-Health 2026: Reliable AI in Healthcare**, a one-day workshop at NeurIPS 2026, invites contributions that advance the engineering of reliable, verifiable, private, and safe AI for clinical deployment. We emphasize actionable techniques, evidence (tests, metrics, logs, proofs, regulatory alignment), and open artifacts (benchmarks, datasets, evaluation protocols, red-teaming playbooks). The workshop deliberately bridges theory and practice and welcomes speculative work and work in progress alongside completed results.
+**ReAL-Health 2026: Reliable AI in Healthcare**, a one-day workshop proposed for NeurIPS 2026, will invite contributions that advance the engineering of reliable, verifiable, private, and safe AI for clinical deployment. We emphasize actionable techniques, evidence (tests, metrics, logs, proofs, regulatory alignment), and open artifacts (benchmarks, datasets, evaluation protocols, red-teaming playbooks). The workshop deliberately bridges theory and practice and welcomes speculative work and work in progress alongside completed results.
+
+> **Note:** This Call for Participation will become active upon NeurIPS workshop acceptance. Notification of acceptance is expected on **July 11, 2026**. Submission and program details below describe the planned workshop and will be confirmed at that time.
 
 ---
 
