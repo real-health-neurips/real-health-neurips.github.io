@@ -10,7 +10,7 @@ nav_title: "Schedule"
 # Preliminary Schedule
 
 <p><strong>Date:</strong> December 2026, pending NeurIPS workshop acceptance (notification July 11, 2026)<br>
-<strong>Venue:</strong> Atlanta (pending NeurIPS venue assignment)<br>
+<strong>Venue:</strong> Atlanta, Sydney, or Paris (in order of preference, pending NeurIPS venue assignment)<br>
 <strong>Duration:</strong> One day, approximately 8 hours, in person</p>
 
 <p>The format prioritizes discussion and cross-community exchange. Organizers introduce and moderate but do not give talks, per NeurIPS COI policy.</p>
@@ -62,7 +62,7 @@ nav_title: "Schedule"
     <tr>
       <td style="border: 1px solid #bbb; padding: 12px 16px; vertical-align: top; white-space: nowrap;">5:45 to 6:15</td>
       <td style="border: 1px solid #bbb; padding: 12px 16px; vertical-align: top;">
-        Lightning talks and spotlights from posters.
+        Shared-task spotlights and lightning talks from posters.
       </td>
     </tr>
     <tr>
@@ -80,7 +80,7 @@ nav_title: "Schedule"
     <tr>
       <td style="border: 1px solid #bbb; padding: 12px 16px; vertical-align: top; white-space: nowrap;">7:45 to 8:00</td>
       <td style="border: 1px solid #bbb; padding: 12px 16px; vertical-align: top;">
-        Awards (best paper, best student paper) and closing remarks.
+        Awards (best paper, best student paper, best shared-task system, best student system) and closing remarks.
       </td>
     </tr>
   </tbody>
