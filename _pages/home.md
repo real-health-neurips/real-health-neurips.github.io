@@ -27,7 +27,7 @@ nav_order: 1
 
 ## Welcome
 
-Welcome to **ReAL-Health 2026: Reliable AI in Healthcare**, a one-day workshop proposed for the **39th Annual Conference on Neural Information Processing Systems (NeurIPS 2026)**.
+Welcome to **ReAL-Health 2026: Reliable AI in Healthcare**, a one-day workshop proposed for the **40th Annual Conference on Neural Information Processing Systems (NeurIPS 2026)**.
 
 Healthcare is the highest-stakes deployment frontier for modern AI. Foundation models and clinical large language models (LLMs) are entering triage, charting, prior authorization, summarization, decision support, and increasingly multi-step agentic workflows. Yet the techniques that make a model accurate on a benchmark are not the techniques that make it *deployable at the bedside*. Clinical deployment demands properties the broader ML community treats as secondary: calibrated uncertainty, faithful grounding in the patient record, fairness across protected and intersectional groups, robust behavior under distribution shift, privacy that survives federation and the right to be forgotten, security against adversarial manipulation of inputs and connected devices, traceable explanations that clinicians and regulators can audit, and meaningful human oversight when an agent acts on a patient's behalf.
 
