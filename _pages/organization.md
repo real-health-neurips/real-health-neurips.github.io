@@ -1,59 +1,15 @@
 ---
 layout: default
-title: "ReAL-Health 2026"
-permalink: /
-nav_order: 1
+title: "Organization"
+permalink: /organization/
+nav_order: 2
 ---
 
-<!-- Logo & Title side by side -->
-<div style="display:flex; align-items:center; justify-content:center; gap:1.5rem; margin:2rem 0; flex-wrap:wrap;">
-  <img
-    src="{{ '/assets/img/realhealth-logo.svg' | relative_url }}"
-    alt="ReAL-Health 2026 Logo"
-    style="width:120px; height:auto;"
-  />
-  <h1 style="margin:0; font-size:2.2rem; line-height:1.2;">
-    ReAL-Health 2026: Reliable AI in Healthcare
-  </h1>
-</div>
+# Organization
 
-<!-- Hero banner -->
-<div style="text-align:center; margin-bottom:2.5rem; padding:2.5rem 1rem; border-radius:14px;
-            background:linear-gradient(135deg,#0EA5A5 0%,#066B82 100%); color:#fff;">
-  <div style="font-size:1.35rem; font-weight:600;">Proposed for NeurIPS 2026</div>
-  <div style="font-size:1.05rem; margin-top:0.5rem;">December 2026 &nbsp;&bull;&nbsp; Atlanta (preferred), Sydney, or Paris &nbsp;&bull;&nbsp; Pending acceptance</div>
-  <div style="font-size:0.95rem; margin-top:0.6rem; opacity:0.95;">From research to the clinic: making AI in healthcare reliable, verifiable, private, and safe enough to deploy.</div>
-</div>
+## Organizing Committee
 
-## Welcome
-
-Welcome to **ReAL-Health 2026: Reliable AI in Healthcare**, a one-day workshop proposed for the **40th Annual Conference on Neural Information Processing Systems (NeurIPS 2026)**.
-
-Healthcare is the highest-stakes deployment frontier for modern AI. Foundation models and clinical large language models (LLMs) are entering triage, charting, prior authorization, summarization, decision support, and increasingly multi-step agentic workflows. Yet the techniques that make a model accurate on a benchmark are not the techniques that make it *deployable at the bedside*. Clinical deployment demands properties the broader ML community treats as secondary: calibrated uncertainty, faithful grounding in the patient record, fairness across protected and intersectional groups, robust behavior under distribution shift, privacy that survives federation and the right to be forgotten, security against adversarial manipulation of inputs and connected devices, traceable explanations that clinicians and regulators can audit, and meaningful human oversight when an agent acts on a patient's behalf.
-
-ReAL-Health convenes the machine learning, healthcare informatics, formal-methods, and security and privacy communities around a single question: **how do we engineer AI systems that are reliable enough to deploy in healthcare, and how do we prove it?** The workshop is built around two complementary directions:
-
-1. **Reliable AI by design.** Reliability and uncertainty quantification, hallucination mitigation and clinical grounding, privacy-preserving and federated learning across hospital networks, machine unlearning aligned with HIPAA and GDPR, adversarial robustness of clinical AI and connected medical devices, formal verification and assurance cases, explainability for clinical decision support, evaluation science beyond accuracy, and the safety of LLM-driven agents in real clinical workflows.
-
-2. **Deployment, regulation, and accountability.** Deployment experience reports from hospitals and industry, regulatory frameworks (FDA AI/ML SaMD, EU AI Act, NIST AI RMF) reframed as concrete engineering workflows, auditing and assurance for clinical AI, and human-AI collaboration that preserves agency and accountability.
-
-<p align="center">
-  <a href="https://real-health-neurips.github.io/">ReAL-Health 2026</a> &bull; A
-  <a href="https://neurips.cc/Conferences/2026">NeurIPS 2026</a> Workshop
-</p>
-
-**Workshop date:** December 2026, pending NeurIPS workshop acceptance (notification July 11, 2026)
-**Location:** Atlanta, Sydney, or Paris (in order of preference, pending NeurIPS venue assignment)
-**Format:** In-person, approximately 8 hours
-**Primary contacts:** sumon@case.edu, shibbir@txstate.edu
-
-> **Note:** This site is under construction. Items marked **TBA** will be updated after the NeurIPS workshop notification on July 11, 2026, and as the program is finalized.
-
----
-
-### Organizing Committee
-
-<div style="display:flex; justify-content:center; align-items:flex-start; gap:1.5rem; flex-wrap:wrap; margin-bottom:3rem;">
+<div style="display:flex; justify-content:center; align-items:flex-start; gap:1.5rem; flex-wrap:wrap; margin-bottom:2rem;">
 
   <div style="text-align:center; width:160px;">
     <img src="{{ '/assets/img/people/islam.png' | relative_url }}"
@@ -99,357 +55,76 @@ ReAL-Health convenes the machine learning, healthcare informatics, formal-method
 
 </div>
 
-Full bios are available on the [Organization page]({{ '/organization/' | relative_url }}).
+### Biographies
+
+**Dr. Md Tauhidul Islam** is Assistant Professor of Radiation Oncology, Division of Medical Physics, Stanford Medicine. He works on foundation models and neural networks for high-dimensional biomedical data spanning genomics, radiomics, proteomics, and multimodal medical imaging, with a focus on translating biomedical data-science research into clinical practice. Contact: [tauhid@stanford.edu](mailto:tauhid@stanford.edu).
+
+**Dr. Avanti Bhandarkar** is a Research Fellow at Mayo Clinic with eight-plus years of experience designing computational models for clinical text understanding, predictive healthcare modeling, and secure AI systems. PhD from the University of Florida in Generative AI and computational behavioral modeling, with a focus on applying behavioral insights to healthcare decision-making. Contact: [bhandarkar.avanti@mayo.edu](mailto:bhandarkar.avanti@mayo.edu).
+
+**Dr. Sumon Biswas** is Assistant Professor of Computer and Data Sciences at Case Western Reserve University, working on responsible AI engineering, formal verification, and algorithmic fairness, with publications at ICML, FSE, and ICSE and support from NSF and DARPA. Workshop and PC experience includes ICSE, FSE, and ASE program committees, Accessibility Chair for ACM SPLASH 2020 and 2021, Board of Distinguished Reviewers for ACM TOSEM, and co-organization of LLMTrust 2026. Contact: [sumon@case.edu](mailto:sumon@case.edu).
+
+**Dr. Amit Kumar Sikder** is Assistant Professor of Computer Science at Iowa State University, working on security and privacy of connected healthcare systems, AI-integrated distributed systems, IoT and cyber-physical security, and cross-platform forensics, with publications at IEEE S&P, USENIX Security, ACM CCS, and NDSS. Previously Research Scientist at Georgia Tech's School of Cybersecurity and Privacy. Contact: [aksikder@iastate.edu](mailto:aksikder@iastate.edu).
+
+**Dr. Shahnewaz Karim Sakib** is Assistant Professor of Computer Science and Engineering at the University of Tennessee at Chattanooga, working on trustworthy and safe AI: privacy-preserving and federated learning, fairness, explainability, machine unlearning, adversarial robustness, and recent studies of hallucination and adversarial factuality in LLMs. Publications in IEEE TIFS and IEEE TDSC; TPC Chair for IEEE DISTILL 2025; leads AI ethics and security education through Chattanooga's AI Network. Contact: [shahnewazkarim-sakib@utc.edu](mailto:shahnewazkarim-sakib@utc.edu).
+
+**Dr. Anindya Bijoy Das** is Assistant Professor of Electrical and Computer Engineering at the University of Akron, working on federated learning, large language models, distributed and coded computation, information theory, and trustworthy AI/ML applications in healthcare; NSF-supported program on practical coded matrix computation. PhD from Iowa State (Karas Award for outstanding dissertation), postdoctoral experience at Purdue, TPC Chair for DISTILL 2025. Contact: [adas@uakron.edu](mailto:adas@uakron.edu).
+
+**Dr. Shibbir Ahmed** is Assistant Professor of Computer Science at Texas State University, working on software engineering for trustworthy AI systems at the intersection of AI, data science, and reliable deep learning, with publications at ICSE, FSE, EMSE, and ICIP and support from NSF and the U.S. Census Bureau. Co-organizer of IEEE DISTILL 2025 and LLMTrust 2026, colocated with ACM FSE 2026. Contact: [shibbir@txstate.edu](mailto:shibbir@txstate.edu).
 
 ---
 
-### Invited Speakers
-
-**Keynote speakers**
-
-<div style="display:flex; justify-content:center; align-items:flex-start; gap:1.5rem; flex-wrap:wrap; margin-bottom:2rem;">
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/xiaofeng.jpg' | relative_url }}"
-         alt="Xiaofeng Wang" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Xiaofeng Wang</strong><br><em>Cleveland Clinic, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/anant.jpg' | relative_url }}"
-         alt="Anant Madabhushi" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Anant Madabhushi</strong><br><em>Georgia Tech &amp; Emory University, USA</em>
-  </div>
-
-</div>
-
-**Invited talks**
-
-<div style="display:flex; justify-content:center; align-items:flex-start; gap:1.5rem; flex-wrap:wrap; margin-bottom:3rem;">
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/robert.jpg' | relative_url }}"
-         alt="Robert Davis" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Robert Davis</strong><br><em>University of Tennessee Health Science Center, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/vipin.jpg' | relative_url }}"
-         alt="Vipin Chaudhary" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Vipin Chaudhary</strong><br><em>Case Western Reserve University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/ritambhara.jpg' | relative_url }}"
-         alt="Ritambhara Singh" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Ritambhara Singh</strong><br><em>Brown University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/satish.jpg' | relative_url }}"
-         alt="Satish E. Viswanath" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Satish E. Viswanath</strong><br><em>Emory University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/farshid.jpg' | relative_url }}"
-         alt="Farshid Alambeigi" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Farshid Alambeigi</strong><br><em>UT Austin, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/shuoli.jpg' | relative_url }}"
-         alt="Shuo Li" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Shuo Li</strong><br><em>CWRU &amp; Case Comprehensive Cancer Center, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/hanson.jpg' | relative_url }}"
-         alt="Heidi Hanson" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Heidi Hanson</strong><br><em>Oak Ridge National Laboratory, USA</em>
-  </div>
-
-</div>
-
-Full speaker details on the [Speakers page]({{ '/speakers/' | relative_url }}).
-
----
-
-## Participation
-
-ReAL-Health welcomes original short papers, extended abstracts, deployment experience reports, datasets, benchmarks, and position papers. Speculative work and negative results are explicitly in scope.
-
-### Submission Types
-- **Short papers** (4 pages plus references): novel research, methods, or systems.
-- **Extended abstracts** (2 pages): work in progress, position papers, tool or benchmark previews.
-- **Experience reports**: deployment lessons from hospitals, industry, or regulators.
-
-- **Submission site:** OpenReview (link TBA)
-- **Review process:** Double-blind, three program-committee reviews per submission, structured rubric.
-
-### Important Dates (NeurIPS 2026 timeline)
-
-| Milestone | Date |
-| --- | --- |
-| Workshop acceptance notification (to organizers) | July 11, 2026 |
-| CFP and OpenReview site live | Within two weeks of acceptance |
-| Suggested submission deadline | August 29, 2026 (AoE) |
-| Author notification (mandatory) | September 29, 2026 (AoE) |
-| Camera-ready and program | Late October 2026 |
-| Workshop | December 2026 |
-
-> All accepted contributions are non-archival per NeurIPS workshop policy and may appear on OpenReview at authors' option.
-
-Full details on the [Call for Participation page]({{ '/call-for-papers/' | relative_url }}).
-
-### Shared Task
-
-ReAL-Health 2026 will host a community shared task on **reliability and safety in patient-facing LLMs**, built on the publicly available HealthBench rubric. Participants train or prompt models, or build safety guardrails, evaluated against physician-written rubrics covering safety, factuality, refusal behavior, and communication. Top systems present spotlight talks at the workshop, and **Best System** and **Best Student System** awards will be announced at closing. Participation does not require a paper submission.
-
-Full task details, dataset, and timeline on the [Shared Task page]({{ '/shared-task/' | relative_url }}).
-
----
-
-### Program
-
-The full one-day program spans approximately 8 hours, mixing keynotes, contributed sessions, poster sessions, a panel, and a cross-community working discussion. See the [Schedule page]({{ '/schedule/' | relative_url }}).
-
----
-
-### Technical Program Committee Members
+## Program Committee
 
 Our Technical Program Committee comprises researchers spanning machine learning reliability, clinical informatics, security and privacy, federated learning, and software engineering for AI. Members below have confirmed their participation in reviewing for ReAL-Health 2026.
 
-<div style="display:flex; justify-content:center; align-items:flex-start; gap:1.5rem; flex-wrap:wrap; margin-bottom:3rem;">
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/rahul.jpg' | relative_url }}"
-         alt="Rahul Singh" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Rahul Singh</strong><br><em>University of Rhode Island, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/dalal.jpg' | relative_url }}"
-         alt="Dalal Alharthi" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Dalal Alharthi</strong><br><em>The University of Arizona, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/praneeth.jpg' | relative_url }}"
-         alt="Praneeth Narayanamurthy" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Praneeth Narayanamurthy</strong><br><em>Alcon, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/niloufar.jpg' | relative_url }}"
-         alt="Niloufar Alipour Talemi" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Niloufar Alipour Talemi</strong><br><em>Clemson University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/sayeed.jpg' | relative_url }}"
-         alt="Sayeed Shafayet Chowdhury" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Sayeed Shafayet Chowdhury</strong><br><em>Indiana University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/ratna.jpg' | relative_url }}"
-         alt="Ratna Kandala" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Ratna Kandala</strong><br><em>University of Kansas, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/mahmoud.jpg' | relative_url }}"
-         alt="Mahmoud Nazzal" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Mahmoud Nazzal</strong><br><em>Old Dominion University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/farah.jpg' | relative_url }}"
-         alt="Farah Ferdaus" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Farah Ferdaus</strong><br><em>Lamar University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/akram.jpg' | relative_url }}"
-         alt="Akram Mohammed" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Akram Mohammed</strong><br><em>UT Health Science Center, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/aruna.jpg' | relative_url }}"
-         alt="Aruna Jayasena" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Aruna Jayasena</strong><br><em>UMass Amherst, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/filiz.jpg' | relative_url }}"
-         alt="Filiz Bunyak Ersoy" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Filiz Bunyak Ersoy</strong><br><em>University of Missouri, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/zhonghao.jpg' | relative_url }}"
-         alt="Zhonghao Liao" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Zhonghao Liao</strong><br><em>Milwaukee School of Engineering, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/silpa.jpg' | relative_url }}"
-         alt="Silpa Babu" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Silpa Babu</strong><br><em>University of Iowa, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/amitseal.jpg' | relative_url }}"
-         alt="Amit Seal Ami" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Amit Seal Ami</strong><br><em>University of South Florida, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/nigar.jpg' | relative_url }}"
-         alt="Nigar Khasayeva" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Nigar Khasayeva</strong><br><em>Georgia State University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/breno.jpg' | relative_url }}"
-         alt="Breno Dantas Cruz" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Breno Dantas Cruz</strong><br><em>Tulane University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/anwang.jpg' | relative_url }}"
-         alt="An Wang" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. An Wang</strong><br><em>Case Western Reserve University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/erman.jpg' | relative_url }}"
-         alt="Erman Ayday" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Erman Ayday</strong><br><em>Case Western Reserve University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/nasik.jpg' | relative_url }}"
-         alt="Nasik Muhammad Nafi" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Nasik Muhammad Nafi</strong><br><em>Oak Ridge National Laboratory, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/emad.jpg' | relative_url }}"
-         alt="Emad Shihab" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Emad Shihab</strong><br><em>Concordia University, Canada</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/sayma.jpg' | relative_url }}"
-         alt="Sayma Sultana" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Sayma Sultana</strong><br><em>Tulane University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/gias.jpg' | relative_url }}"
-         alt="Gias Uddin" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Gias Uddin</strong><br><em>York University, Canada</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/kevin.jpg' | relative_url }}"
-         alt="Kevin Xu" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Kevin Xu</strong><br><em>Case Western Reserve University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/jaydeb.jpg' | relative_url }}"
-         alt="Jaydeb Sarker" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Jaydeb Sarker</strong><br><em>University of Nebraska at Omaha, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/abdullah.jpg' | relative_url }}"
-         alt="Abdullah Al Maruf" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Abdullah Al Maruf</strong><br><em>California State University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/yuyin.jpg' | relative_url }}"
-         alt="Yu Yin" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Yu Yin</strong><br><em>Case Western Reserve University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/iftekhar.jpg' | relative_url }}"
-         alt="Iftekhar Ahmed" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Iftekhar Ahmed</strong><br><em>University of California, Irvine, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/sanmukh.jpg' | relative_url }}"
-         alt="Sanmukh Kuppannagari" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Sanmukh Kuppannagari</strong><br><em>Case Western Reserve University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/masud.jpg' | relative_url }}"
-         alt="Masud Rahman" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Masud Rahman</strong><br><em>Dalhousie University, Canada</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/soumya.jpg' | relative_url }}"
-         alt="Soumya Ray" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Soumya Ray</strong><br><em>Case Western Reserve University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/jingma.jpg' | relative_url }}"
-         alt="Jing Ma" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Jing Ma</strong><br><em>Case Western Reserve University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/yining.jpg' | relative_url }}"
-         alt="Yining She" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Yining She</strong><br><em>Carnegie Mellon University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/shuai.jpg' | relative_url }}"
-         alt="Shuai Xu" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Shuai Xu</strong><br><em>Case Western Reserve University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/feixiong.jpg' | relative_url }}"
-         alt="Feixiong Cheng" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Feixiong Cheng</strong><br><em>Cleveland Clinic, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/dewan.jpg' | relative_url }}"
-         alt="Dewan Fahim Noor" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Dewan Fahim Noor</strong><br><em>Tuskegee University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/chaoyan.jpg' | relative_url }}"
-         alt="Chao Yan" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Chao Yan</strong><br><em>Vanderbilt University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/yinghui.jpg' | relative_url }}"
-         alt="Yinghui Wu" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Yinghui Wu</strong><br><em>Case Western Reserve University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/jing.jpg' | relative_url }}"
-         alt="Jing Li" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Jing Li</strong><br><em>Case Western Reserve University, USA</em>
-  </div>
-
+<div style="column-count: 2; column-gap: 2rem; margin-bottom: 3rem;">
+  <ul style="padding-left: 1.2rem; margin: 0; line-height: 1.7;">
+    <li><strong>Dr. Rahul Singh</strong>, <em>University of Rhode Island, USA</em></li>
+    <li><strong>Dr. Dalal Alharthi</strong>, <em>The University of Arizona, USA</em></li>
+    <li><strong>Dr. Praneeth Narayanamurthy</strong>, <em>Alcon, USA</em></li>
+    <li><strong>Dr. Niloufar Alipour Talemi</strong>, <em>Clemson University, USA</em></li>
+    <li><strong>Dr. Sayeed Shafayet Chowdhury</strong>, <em>Indiana University, USA</em></li>
+    <li><strong>Dr. Ratna Kandala</strong>, <em>University of Kansas, USA</em></li>
+    <li><strong>Dr. Mahmoud Nazzal</strong>, <em>Old Dominion University, USA</em></li>
+    <li><strong>Dr. Farah Ferdaus</strong>, <em>Lamar University, USA</em></li>
+    <li><strong>Dr. Akram Mohammed</strong>, <em>UT Health Science Center, USA</em></li>
+    <li><strong>Dr. Aruna Jayasena</strong>, <em>UMass Amherst, USA</em></li>
+    <li><strong>Dr. Filiz Bunyak Ersoy</strong>, <em>University of Missouri, USA</em></li>
+    <li><strong>Dr. Zhonghao Liao</strong>, <em>Milwaukee School of Engineering, USA</em></li>
+    <li><strong>Dr. Silpa Babu</strong>, <em>University of Iowa, USA</em></li>
+    <li><strong>Dr. Amit Seal Ami</strong>, <em>University of South Florida, USA</em></li>
+    <li><strong>Dr. Nigar Khasayeva</strong>, <em>Georgia State University, USA</em></li>
+    <li><strong>Dr. Breno Dantas Cruz</strong>, <em>Tulane University, USA</em></li>
+    <li><strong>Dr. An Wang</strong>, <em>Case Western Reserve University, USA</em></li>
+    <li><strong>Dr. Erman Ayday</strong>, <em>Case Western Reserve University, USA</em></li>
+    <li><strong>Dr. Nasik Muhammad Nafi</strong>, <em>Oak Ridge National Laboratory, USA</em></li>
+    <li><strong>Dr. Emad Shihab</strong>, <em>Concordia University, Canada</em></li>
+    <li><strong>Dr. Sayma Sultana</strong>, <em>Tulane University, USA</em></li>
+    <li><strong>Dr. Gias Uddin</strong>, <em>York University, Canada</em></li>
+    <li><strong>Dr. Kevin Xu</strong>, <em>Case Western Reserve University, USA</em></li>
+    <li><strong>Dr. Jaydeb Sarker</strong>, <em>University of Nebraska at Omaha, USA</em></li>
+    <li><strong>Dr. Abdullah Al Maruf</strong>, <em>California State University, USA</em></li>
+    <li><strong>Dr. Yu Yin</strong>, <em>Case Western Reserve University, USA</em></li>
+    <li><strong>Dr. Iftekhar Ahmed</strong>, <em>University of California, Irvine, USA</em></li>
+    <li><strong>Dr. Sanmukh Kuppannagari</strong>, <em>Case Western Reserve University, USA</em></li>
+    <li><strong>Dr. Masud Rahman</strong>, <em>Dalhousie University, Canada</em></li>
+    <li><strong>Dr. Soumya Ray</strong>, <em>Case Western Reserve University, USA</em></li>
+    <li><strong>Dr. Jing Ma</strong>, <em>Case Western Reserve University, USA</em></li>
+    <li><strong>Yining She</strong>, <em>Carnegie Mellon University, USA</em></li>
+    <li><strong>Dr. Shuai Xu</strong>, <em>Case Western Reserve University, USA</em></li>
+    <li><strong>Dr. Feixiong Cheng</strong>, <em>Cleveland Clinic, USA</em></li>
+    <li><strong>Dr. Dewan Fahim Noor</strong>, <em>Tuskegee University, USA</em></li>
+    <li><strong>Dr. Chao Yan</strong>, <em>Vanderbilt University, USA</em></li>
+    <li><strong>Dr. Yinghui Wu</strong>, <em>Case Western Reserve University, USA</em></li>
+    <li><strong>Dr. Jing Li</strong>, <em>Case Western Reserve University, USA</em></li>
+  </ul>
 </div>
 
-The full program committee is also listed on the [Organization page]({{ '/organization/' | relative_url }}).
+---
+
+## Contact
+
+Primary contacts for ReAL-Health 2026:
+
+- [sumon@case.edu](mailto:sumon@case.edu)
+- [shibbir@txstate.edu](mailto:shibbir@txstate.edu)
