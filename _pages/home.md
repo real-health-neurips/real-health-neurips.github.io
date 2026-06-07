@@ -158,13 +158,13 @@ Full bios are available on the [Organization page]({{ '/organization/' | relativ
   </div>
 
   <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/shuoli.jpg' | relative_url }}"
+    <img src="{{ '/assets/img/people/shuo.jpg' | relative_url }}"
          alt="Shuo Li" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
     <br><strong>Dr. Shuo Li</strong><br><em>CWRU &amp; Case Comprehensive Cancer Center, USA</em>
   </div>
 
   <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/hanson.jpg' | relative_url }}"
+    <img src="{{ '/assets/img/people/heidi.jpg' | relative_url }}"
          alt="Heidi Hanson" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
     <br><strong>Dr. Heidi Hanson</strong><br><em>Oak Ridge National Laboratory, USA</em>
   </div>
