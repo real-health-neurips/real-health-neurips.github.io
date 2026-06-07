@@ -220,236 +220,47 @@ The full one-day program spans approximately 8 hours, mixing keynotes, contribut
 
 Our Technical Program Committee comprises researchers spanning machine learning reliability, clinical informatics, security and privacy, federated learning, and software engineering for AI. Members below have confirmed their participation in reviewing for ReAL-Health 2026.
 
-<div style="display:flex; justify-content:center; align-items:flex-start; gap:1.5rem; flex-wrap:wrap; margin-bottom:3rem;">
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/rahul.jpg' | relative_url }}"
-         alt="Rahul Singh" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Rahul Singh</strong><br><em>University of Rhode Island, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/dalal.jpg' | relative_url }}"
-         alt="Dalal Alharthi" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Dalal Alharthi</strong><br><em>The University of Arizona, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/praneeth.jpg' | relative_url }}"
-         alt="Praneeth Narayanamurthy" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Praneeth Narayanamurthy</strong><br><em>Alcon, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/niloufar.jpg' | relative_url }}"
-         alt="Niloufar Alipour Talemi" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Niloufar Alipour Talemi</strong><br><em>Clemson University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/sayeed.jpg' | relative_url }}"
-         alt="Sayeed Shafayet Chowdhury" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Sayeed Shafayet Chowdhury</strong><br><em>Indiana University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/ratna.jpg' | relative_url }}"
-         alt="Ratna Kandala" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Ratna Kandala</strong><br><em>University of Kansas, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/mahmoud.jpg' | relative_url }}"
-         alt="Mahmoud Nazzal" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Mahmoud Nazzal</strong><br><em>Old Dominion University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/farah.jpg' | relative_url }}"
-         alt="Farah Ferdaus" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Farah Ferdaus</strong><br><em>Lamar University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/akram.jpg' | relative_url }}"
-         alt="Akram Mohammed" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Akram Mohammed</strong><br><em>UT Health Science Center, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/aruna.jpg' | relative_url }}"
-         alt="Aruna Jayasena" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Aruna Jayasena</strong><br><em>UMass Amherst, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/filiz.jpg' | relative_url }}"
-         alt="Filiz Bunyak Ersoy" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Filiz Bunyak Ersoy</strong><br><em>University of Missouri, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/zhonghao.jpg' | relative_url }}"
-         alt="Zhonghao Liao" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Zhonghao Liao</strong><br><em>Milwaukee School of Engineering, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/silpa.jpg' | relative_url }}"
-         alt="Silpa Babu" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Silpa Babu</strong><br><em>University of Iowa, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/amitseal.jpg' | relative_url }}"
-         alt="Amit Seal Ami" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Amit Seal Ami</strong><br><em>University of South Florida, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/nigar.jpg' | relative_url }}"
-         alt="Nigar Khasayeva" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Nigar Khasayeva</strong><br><em>Georgia State University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/breno.jpg' | relative_url }}"
-         alt="Breno Dantas Cruz" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Breno Dantas Cruz</strong><br><em>Tulane University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/anwang.jpg' | relative_url }}"
-         alt="An Wang" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. An Wang</strong><br><em>Case Western Reserve University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/erman.jpg' | relative_url }}"
-         alt="Erman Ayday" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Erman Ayday</strong><br><em>Case Western Reserve University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/nasik.jpg' | relative_url }}"
-         alt="Nasik Muhammad Nafi" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Nasik Muhammad Nafi</strong><br><em>Oak Ridge National Laboratory, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/emad.jpg' | relative_url }}"
-         alt="Emad Shihab" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Emad Shihab</strong><br><em>Concordia University, Canada</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/sayma.jpg' | relative_url }}"
-         alt="Sayma Sultana" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Sayma Sultana</strong><br><em>Tulane University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/gias.jpg' | relative_url }}"
-         alt="Gias Uddin" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Gias Uddin</strong><br><em>York University, Canada</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/kevin.jpg' | relative_url }}"
-         alt="Kevin Xu" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Kevin Xu</strong><br><em>Case Western Reserve University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/jaydeb.jpg' | relative_url }}"
-         alt="Jaydeb Sarker" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Jaydeb Sarker</strong><br><em>University of Nebraska at Omaha, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/abdullah.jpg' | relative_url }}"
-         alt="Abdullah Al Maruf" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Abdullah Al Maruf</strong><br><em>California State University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/yuyin.jpg' | relative_url }}"
-         alt="Yu Yin" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Yu Yin</strong><br><em>Case Western Reserve University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/iftekhar.jpg' | relative_url }}"
-         alt="Iftekhar Ahmed" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Iftekhar Ahmed</strong><br><em>University of California, Irvine, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/sanmukh.jpg' | relative_url }}"
-         alt="Sanmukh Kuppannagari" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Sanmukh Kuppannagari</strong><br><em>Case Western Reserve University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/masud.jpg' | relative_url }}"
-         alt="Masud Rahman" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Masud Rahman</strong><br><em>Dalhousie University, Canada</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/soumya.jpg' | relative_url }}"
-         alt="Soumya Ray" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Soumya Ray</strong><br><em>Case Western Reserve University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/jingma.jpg' | relative_url }}"
-         alt="Jing Ma" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Jing Ma</strong><br><em>Case Western Reserve University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/yining.jpg' | relative_url }}"
-         alt="Yining She" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Yining She</strong><br><em>Carnegie Mellon University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/shuai.jpg' | relative_url }}"
-         alt="Shuai Xu" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Shuai Xu</strong><br><em>Case Western Reserve University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/feixiong.jpg' | relative_url }}"
-         alt="Feixiong Cheng" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Feixiong Cheng</strong><br><em>Cleveland Clinic, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/dewan.jpg' | relative_url }}"
-         alt="Dewan Fahim Noor" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Dewan Fahim Noor</strong><br><em>Tuskegee University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/chaoyan.jpg' | relative_url }}"
-         alt="Chao Yan" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Chao Yan</strong><br><em>Vanderbilt University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/yinghui.jpg' | relative_url }}"
-         alt="Yinghui Wu" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Yinghui Wu</strong><br><em>Case Western Reserve University, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/jing.jpg' | relative_url }}"
-         alt="Jing Li" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Jing Li</strong><br><em>Case Western Reserve University, USA</em>
-  </div>
-
+<div style="column-count: 2; column-gap: 2rem; margin-bottom: 3rem;">
+  <ul style="padding-left: 1.2rem; margin: 0; line-height: 1.7;">
+    <li><strong>Dr. Rahul Singh</strong>, <em>University of Rhode Island, USA</em></li>
+    <li><strong>Dr. Dalal Alharthi</strong>, <em>The University of Arizona, USA</em></li>
+    <li><strong>Dr. Praneeth Narayanamurthy</strong>, <em>Alcon, USA</em></li>
+    <li><strong>Dr. Niloufar Alipour Talemi</strong>, <em>Clemson University, USA</em></li>
+    <li><strong>Dr. Sayeed Shafayet Chowdhury</strong>, <em>Indiana University, USA</em></li>
+    <li><strong>Dr. Ratna Kandala</strong>, <em>University of Kansas, USA</em></li>
+    <li><strong>Dr. Mahmoud Nazzal</strong>, <em>Old Dominion University, USA</em></li>
+    <li><strong>Dr. Farah Ferdaus</strong>, <em>Lamar University, USA</em></li>
+    <li><strong>Dr. Akram Mohammed</strong>, <em>UT Health Science Center, USA</em></li>
+    <li><strong>Dr. Aruna Jayasena</strong>, <em>UMass Amherst, USA</em></li>
+    <li><strong>Dr. Filiz Bunyak Ersoy</strong>, <em>University of Missouri, USA</em></li>
+    <li><strong>Dr. Zhonghao Liao</strong>, <em>Milwaukee School of Engineering, USA</em></li>
+    <li><strong>Dr. Silpa Babu</strong>, <em>University of Iowa, USA</em></li>
+    <li><strong>Dr. Amit Seal Ami</strong>, <em>University of South Florida, USA</em></li>
+    <li><strong>Dr. Nigar Khasayeva</strong>, <em>Georgia State University, USA</em></li>
+    <li><strong>Dr. Breno Dantas Cruz</strong>, <em>Tulane University, USA</em></li>
+    <li><strong>Dr. An Wang</strong>, <em>Case Western Reserve University, USA</em></li>
+    <li><strong>Dr. Erman Ayday</strong>, <em>Case Western Reserve University, USA</em></li>
+    <li><strong>Dr. Nasik Muhammad Nafi</strong>, <em>Oak Ridge National Laboratory, USA</em></li>
+    <li><strong>Dr. Emad Shihab</strong>, <em>Concordia University, Canada</em></li>
+    <li><strong>Dr. Sayma Sultana</strong>, <em>Tulane University, USA</em></li>
+    <li><strong>Dr. Gias Uddin</strong>, <em>York University, Canada</em></li>
+    <li><strong>Dr. Kevin Xu</strong>, <em>Case Western Reserve University, USA</em></li>
+    <li><strong>Dr. Jaydeb Sarker</strong>, <em>University of Nebraska at Omaha, USA</em></li>
+    <li><strong>Dr. Abdullah Al Maruf</strong>, <em>California State University, USA</em></li>
+    <li><strong>Dr. Yu Yin</strong>, <em>Case Western Reserve University, USA</em></li>
+    <li><strong>Dr. Iftekhar Ahmed</strong>, <em>University of California, Irvine, USA</em></li>
+    <li><strong>Dr. Sanmukh Kuppannagari</strong>, <em>Case Western Reserve University, USA</em></li>
+    <li><strong>Dr. Masud Rahman</strong>, <em>Dalhousie University, Canada</em></li>
+    <li><strong>Dr. Soumya Ray</strong>, <em>Case Western Reserve University, USA</em></li>
+    <li><strong>Dr. Jing Ma</strong>, <em>Case Western Reserve University, USA</em></li>
+    <li><strong>Yining She</strong>, <em>Carnegie Mellon University, USA</em></li>
+    <li><strong>Dr. Shuai Xu</strong>, <em>Case Western Reserve University, USA</em></li>
+    <li><strong>Dr. Feixiong Cheng</strong>, <em>Cleveland Clinic, USA</em></li>
+    <li><strong>Dr. Dewan Fahim Noor</strong>, <em>Tuskegee University, USA</em></li>
+    <li><strong>Dr. Chao Yan</strong>, <em>Vanderbilt University, USA</em></li>
+    <li><strong>Dr. Yinghui Wu</strong>, <em>Case Western Reserve University, USA</em></li>
+    <li><strong>Dr. Jing Li</strong>, <em>Case Western Reserve University, USA</em></li>
+  </ul>
 </div>
 
 The full program committee is also listed on the [Organization page]({{ '/organization/' | relative_url }}).
