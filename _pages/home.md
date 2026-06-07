@@ -21,8 +21,8 @@ nav_order: 1
 <div style="text-align:center; margin-bottom:2.5rem; padding:2.5rem 1rem; border-radius:14px;
             background:linear-gradient(135deg,#0EA5A5 0%,#066B82 100%); color:#fff;">
   <div style="font-size:1.35rem; font-weight:600;">Proposed for NeurIPS 2026</div>
-  <div style="font-size:1.05rem; margin-top:0.5rem;">December 2026 &nbsp;&bull;&nbsp; Atlanta &nbsp;&bull;&nbsp; Pending acceptance</div>
-  <div style="font-size:0.95rem; margin-top:0.6rem; opacity:0.95;">From research to bedside: making AI in healthcare reliable, verifiable, private, and safe enough to deploy.</div>
+  <div style="font-size:1.05rem; margin-top:0.5rem;">December 2026 &nbsp;&bull;&nbsp; Atlanta (preferred), Sydney, or Paris &nbsp;&bull;&nbsp; Pending acceptance</div>
+  <div style="font-size:0.95rem; margin-top:0.6rem; opacity:0.95;">From research to the clinic: making AI in healthcare reliable, verifiable, private, and safe enough to deploy.</div>
 </div>
 
 ## Welcome
@@ -43,7 +43,7 @@ ReAL-Health convenes the machine learning, healthcare informatics, formal-method
 </p>
 
 **Workshop date:** December 2026, pending NeurIPS workshop acceptance (notification July 11, 2026)
-**Location:** Atlanta (pending NeurIPS venue assignment)
+**Location:** Atlanta, Sydney, or Paris (in order of preference, pending NeurIPS venue assignment)
 **Format:** In-person, approximately 8 hours
 **Primary contacts:** sumon@case.edu, shibbir@txstate.edu
 
@@ -105,7 +105,9 @@ Full bios are available on the [Organization page]({{ '/organization/' | relativ
 
 ### Invited Speakers
 
-<div style="display:flex; justify-content:center; align-items:flex-start; gap:1.5rem; flex-wrap:wrap; margin-bottom:3rem;">
+**Keynote speakers**
+
+<div style="display:flex; justify-content:center; align-items:flex-start; gap:1.5rem; flex-wrap:wrap; margin-bottom:2rem;">
 
   <div style="text-align:center; width:160px;">
     <img src="{{ '/assets/img/people/xiaofeng.jpg' | relative_url }}"
@@ -114,21 +116,21 @@ Full bios are available on the [Organization page]({{ '/organization/' | relativ
   </div>
 
   <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/robert.jpg' | relative_url }}"
-         alt="Robert Davis" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Robert Davis</strong><br><em>University of Tennessee Health Science Center, USA</em>
-  </div>
-
-  <div style="text-align:center; width:160px;">
     <img src="{{ '/assets/img/people/anant.jpg' | relative_url }}"
          alt="Anant Madabhushi" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
     <br><strong>Dr. Anant Madabhushi</strong><br><em>Georgia Tech &amp; Emory University, USA</em>
   </div>
 
+</div>
+
+**Invited talks**
+
+<div style="display:flex; justify-content:center; align-items:flex-start; gap:1.5rem; flex-wrap:wrap; margin-bottom:3rem;">
+
   <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/ritambhara.jpg' | relative_url }}"
-         alt="Ritambhara Singh" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Ritambhara Singh</strong><br><em>Brown University, USA</em>
+    <img src="{{ '/assets/img/people/robert.jpg' | relative_url }}"
+         alt="Robert Davis" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Robert Davis</strong><br><em>University of Tennessee Health Science Center, USA</em>
   </div>
 
   <div style="text-align:center; width:160px;">
@@ -138,15 +140,33 @@ Full bios are available on the [Organization page]({{ '/organization/' | relativ
   </div>
 
   <div style="text-align:center; width:160px;">
+    <img src="{{ '/assets/img/people/ritambhara.jpg' | relative_url }}"
+         alt="Ritambhara Singh" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Ritambhara Singh</strong><br><em>Brown University, USA</em>
+  </div>
+
+  <div style="text-align:center; width:160px;">
     <img src="{{ '/assets/img/people/satish.jpg' | relative_url }}"
          alt="Satish E. Viswanath" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
     <br><strong>Dr. Satish E. Viswanath</strong><br><em>Emory University, USA</em>
   </div>
 
   <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/jing.jpg' | relative_url }}"
-         alt="Jing Li" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Jing Li</strong><br><em>Case Western Reserve University, USA</em>
+    <img src="{{ '/assets/img/people/farshid.jpg' | relative_url }}"
+         alt="Farshid Alambeigi" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Farshid Alambeigi</strong><br><em>UT Austin, USA</em>
+  </div>
+
+  <div style="text-align:center; width:160px;">
+    <img src="{{ '/assets/img/people/shuoli.jpg' | relative_url }}"
+         alt="Shuo Li" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Shuo Li</strong><br><em>CWRU &amp; Case Comprehensive Cancer Center, USA</em>
+  </div>
+
+  <div style="text-align:center; width:160px;">
+    <img src="{{ '/assets/img/people/hanson.jpg' | relative_url }}"
+         alt="Heidi Hanson" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Heidi Hanson</strong><br><em>Oak Ridge National Laboratory, USA</em>
   </div>
 
 </div>
@@ -203,9 +223,9 @@ Our Technical Program Committee comprises researchers spanning machine learning 
 <div style="display:flex; justify-content:center; align-items:flex-start; gap:1.5rem; flex-wrap:wrap; margin-bottom:3rem;">
 
   <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/akond.jpg' | relative_url }}"
-         alt="Akond Rahman" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Akond Rahman</strong><br><em>Auburn University, USA</em>
+    <img src="{{ '/assets/img/people/rahul.jpg' | relative_url }}"
+         alt="Rahul Singh" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Rahul Singh</strong><br><em>University of Rhode Island, USA</em>
   </div>
 
   <div style="text-align:center; width:160px;">
@@ -404,6 +424,30 @@ Our Technical Program Committee comprises researchers spanning machine learning 
     <img src="{{ '/assets/img/people/feixiong.jpg' | relative_url }}"
          alt="Feixiong Cheng" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
     <br><strong>Dr. Feixiong Cheng</strong><br><em>Cleveland Clinic, USA</em>
+  </div>
+
+  <div style="text-align:center; width:160px;">
+    <img src="{{ '/assets/img/people/dewan.jpg' | relative_url }}"
+         alt="Dewan Fahim Noor" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Dewan Fahim Noor</strong><br><em>Tuskegee University, USA</em>
+  </div>
+
+  <div style="text-align:center; width:160px;">
+    <img src="{{ '/assets/img/people/chaoyan.jpg' | relative_url }}"
+         alt="Chao Yan" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Chao Yan</strong><br><em>Vanderbilt University, USA</em>
+  </div>
+
+  <div style="text-align:center; width:160px;">
+    <img src="{{ '/assets/img/people/yinghui.jpg' | relative_url }}"
+         alt="Yinghui Wu" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Yinghui Wu</strong><br><em>Case Western Reserve University, USA</em>
+  </div>
+
+  <div style="text-align:center; width:160px;">
+    <img src="{{ '/assets/img/people/jing.jpg' | relative_url }}"
+         alt="Jing Li" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Jing Li</strong><br><em>Case Western Reserve University, USA</em>
   </div>
 
 </div>
