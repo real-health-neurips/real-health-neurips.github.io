@@ -1,118 +1,231 @@
 ---
-layout: page
-title: "Organization"
-permalink: /organization/
-nav: true
-nav_order: 5
+layout: default
+title: "ReAL-Health 2026"
+permalink: /
+nav_order: 1
 ---
 
-# Organization
+<!-- Logo & Title side by side -->
+<div style="display:flex; align-items:center; justify-content:center; gap:1.5rem; margin:2rem 0; flex-wrap:wrap;">
+  <img
+    src="{{ '/assets/img/realhealth-logo.svg' | relative_url }}"
+    alt="ReAL-Health 2026 Logo"
+    style="width:120px; height:auto;"
+  />
+  <h1 style="margin:0; font-size:2.2rem; line-height:1.2;">
+    ReAL-Health 2026: Reliable AI in Healthcare
+  </h1>
+</div>
 
-## Organizing Committee
+<!-- Hero banner -->
+<div style="text-align:center; margin-bottom:2.5rem; padding:2.5rem 1rem; border-radius:14px;
+            background:linear-gradient(135deg,#0EA5A5 0%,#066B82 100%); color:#fff;">
+  <div style="font-size:1.35rem; font-weight:600;">Proposed for NeurIPS 2026</div>
+  <div style="font-size:1.05rem; margin-top:0.5rem;">December 2026 &nbsp;&bull;&nbsp; Atlanta (preferred), Sydney, or Paris &nbsp;&bull;&nbsp; Pending acceptance</div>
+  <div style="font-size:0.95rem; margin-top:0.6rem; opacity:0.95;">From research to the clinic: making AI in healthcare reliable, verifiable, private, and safe enough to deploy.</div>
+</div>
 
-<div class="team-container"
-     style="display:flex; justify-content:center; align-items:flex-start; gap:2rem; flex-wrap:wrap;">
+## Welcome
 
-  <div class="team-member" style="text-align:center; max-width:320px;">
+Welcome to **ReAL-Health 2026: Reliable AI in Healthcare**, a one-day workshop proposed for the **40th Annual Conference on Neural Information Processing Systems (NeurIPS 2026)**.
+
+Healthcare is the highest-stakes deployment frontier for modern AI. Foundation models and clinical large language models (LLMs) are entering triage, charting, prior authorization, summarization, decision support, and increasingly multi-step agentic workflows. Yet the techniques that make a model accurate on a benchmark are not the techniques that make it *deployable at the bedside*. Clinical deployment demands properties the broader ML community treats as secondary: calibrated uncertainty, faithful grounding in the patient record, fairness across protected and intersectional groups, robust behavior under distribution shift, privacy that survives federation and the right to be forgotten, security against adversarial manipulation of inputs and connected devices, traceable explanations that clinicians and regulators can audit, and meaningful human oversight when an agent acts on a patient's behalf.
+
+ReAL-Health convenes the machine learning, healthcare informatics, formal-methods, and security and privacy communities around a single question: **how do we engineer AI systems that are reliable enough to deploy in healthcare, and how do we prove it?** The workshop is built around two complementary directions:
+
+1. **Reliable AI by design.** Reliability and uncertainty quantification, hallucination mitigation and clinical grounding, privacy-preserving and federated learning across hospital networks, machine unlearning aligned with HIPAA and GDPR, adversarial robustness of clinical AI and connected medical devices, formal verification and assurance cases, explainability for clinical decision support, evaluation science beyond accuracy, and the safety of LLM-driven agents in real clinical workflows.
+
+2. **Deployment, regulation, and accountability.** Deployment experience reports from hospitals and industry, regulatory frameworks (FDA AI/ML SaMD, EU AI Act, NIST AI RMF) reframed as concrete engineering workflows, auditing and assurance for clinical AI, and human-AI collaboration that preserves agency and accountability.
+
+<p align="center">
+  <a href="https://real-health-neurips.github.io/">ReAL-Health 2026</a> &bull; A
+  <a href="https://neurips.cc/Conferences/2026">NeurIPS 2026</a> Workshop
+</p>
+
+**Workshop date:** December 2026, pending NeurIPS workshop acceptance (notification July 11, 2026)
+**Location:** Atlanta, Sydney, or Paris (in order of preference, pending NeurIPS venue assignment)
+**Format:** In-person, approximately 8 hours
+**Primary contacts:** sumon@case.edu, shibbir@txstate.edu
+
+> **Note:** This site is under construction. Items marked **TBA** will be updated after the NeurIPS workshop notification on July 11, 2026, and as the program is finalized.
+
+---
+
+### Organizing Committee
+
+<div style="display:flex; justify-content:center; align-items:flex-start; gap:1.5rem; flex-wrap:wrap; margin-bottom:3rem;">
+
+  <div style="text-align:center; width:160px;">
     <img src="{{ '/assets/img/people/islam.png' | relative_url }}"
-         alt="Md Tauhidul Islam" style="width:200px; height:200px; object-fit:cover; border-radius:50%;" />
-    <h3>Dr. Md Tauhidul Islam</h3>
-    <p>Assistant Professor, Department of Radiation Oncology, Division of Medical Physics<br>
-    Stanford Medicine, Stanford University, USA<br>
-    <a href="mailto:tauhid@stanford.edu">tauhid@stanford.edu</a></p>
+         alt="Md Tauhidul Islam" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Md Tauhidul Islam</strong><br><em>Stanford University, USA</em>
   </div>
 
-  <div class="team-member" style="text-align:center; max-width:320px;">
+  <div style="text-align:center; width:160px;">
     <img src="{{ '/assets/img/people/avanti.jpg' | relative_url }}"
-         alt="Avanti Bhandarkar" style="width:200px; height:200px; object-fit:cover; border-radius:50%;" />
-    <h3>Dr. Avanti Bhandarkar</h3>
-    <p>Research Fellow<br>
-    Mayo Clinic, USA<br>
-    <a href="mailto:bhandarkar.avanti@mayo.edu">bhandarkar.avanti@mayo.edu</a></p>
+         alt="Avanti Bhandarkar" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Avanti Bhandarkar</strong><br><em>Mayo Clinic, USA</em>
   </div>
 
-  <div class="team-member" style="text-align:center; max-width:320px;">
+  <div style="text-align:center; width:160px;">
     <img src="{{ '/assets/img/sumon.jpg' | relative_url }}"
-         alt="Sumon Biswas" style="width:200px; height:200px; object-fit:cover; border-radius:50%;" />
-    <h3>Dr. Sumon Biswas</h3>
-    <p>Assistant Professor, Department of Computer and Data Sciences<br>
-    Case Western Reserve University, USA<br>
-    <a href="mailto:sumon@case.edu">sumon@case.edu</a> &middot;
-    <a href="https://sumonbis.github.io/">sumonbis.github.io</a></p>
+         alt="Sumon Biswas" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Sumon Biswas</strong><br><em>Case Western Reserve University, USA</em>
   </div>
 
-  <div class="team-member" style="text-align:center; max-width:320px;">
+  <div style="text-align:center; width:160px;">
     <img src="{{ '/assets/img/people/amit.jpg' | relative_url }}"
-         alt="Amit Kumar Sikder" style="width:200px; height:200px; object-fit:cover; border-radius:50%;" />
-    <h3>Dr. Amit Kumar Sikder</h3>
-    <p>Assistant Professor, Department of Computer Science<br>
-    Iowa State University, USA<br>
-    <a href="mailto:aksikder@iastate.edu">aksikder@iastate.edu</a> &middot;
-    <a href="https://faculty.sites.iastate.edu/aksikder/">faculty.sites.iastate.edu/aksikder</a></p>
+         alt="Amit Kumar Sikder" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Amit Kumar Sikder</strong><br><em>Iowa State University, USA</em>
   </div>
 
-  <div class="team-member" style="text-align:center; max-width:320px;">
+  <div style="text-align:center; width:160px;">
     <img src="{{ '/assets/img/shahnewaz.jpg' | relative_url }}"
-         alt="Shahnewaz Karim Sakib" style="width:200px; height:200px; object-fit:cover; border-radius:50%;" />
-    <h3>Dr. Shahnewaz Karim Sakib</h3>
-    <p>Assistant Professor, Department of Computer Science and Engineering<br>
-    University of Tennessee at Chattanooga, USA<br>
-    <a href="mailto:shahnewazkarim-sakib@utc.edu">shahnewazkarim-sakib@utc.edu</a> &middot;
-    <a href="https://shahanewaz.github.io/">shahanewaz.github.io</a></p>
+         alt="Shahnewaz Karim Sakib" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Shahnewaz Karim Sakib</strong><br><em>University of Tennessee at Chattanooga, USA</em>
   </div>
 
-  <div class="team-member" style="text-align:center; max-width:320px;">
+  <div style="text-align:center; width:160px;">
     <img src="{{ '/assets/img/anindya.jpg' | relative_url }}"
-         alt="Anindya Bijoy Das" style="width:200px; height:200px; object-fit:cover; border-radius:50%;" />
-    <h3>Dr. Anindya Bijoy Das</h3>
-    <p>Assistant Professor, Department of Electrical and Computer Engineering<br>
-    University of Akron, USA<br>
-    <a href="mailto:adas@uakron.edu">adas@uakron.edu</a> &middot;
-    <a href="https://anindyabijoydas.github.io/portfolio/">anindyabijoydas.github.io</a></p>
+         alt="Anindya Bijoy Das" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Anindya Bijoy Das</strong><br><em>University of Akron, USA</em>
   </div>
 
-  <div class="team-member" style="text-align:center; max-width:320px;">
+  <div style="text-align:center; width:160px;">
     <img src="{{ '/assets/img/sahmed.jpg' | relative_url }}"
-         alt="Shibbir Ahmed" style="width:200px; height:200px; object-fit:cover; border-radius:50%;" />
-    <h3>Dr. Shibbir Ahmed</h3>
-    <p>Assistant Professor, Department of Computer Science<br>
-    Texas State University, USA<br>
-    <a href="mailto:shibbir@txstate.edu">shibbir@txstate.edu</a> &middot;
-    <a href="https://shibbirtanvin.github.io/">shibbirtanvin.github.io</a></p>
+         alt="Shibbir Ahmed" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Shibbir Ahmed</strong><br><em>Texas State University, USA</em>
   </div>
 
 </div>
 
----
-
-## Organizer Biographies
-
-**Dr. Md Tauhidul Islam**, Stanford University, is an Assistant Professor in the Department of Radiation Oncology, Division of Medical Physics at Stanford Medicine. His research focuses on developing novel AI techniques for biomedical applications, with a strong focus on translating biomedical data science research to benefit both clinical practice and biological investigations. He works on applications of large foundation models and neural networks to high-dimensional medical data, including genomics, radiomics, proteomics, and images from different modalities, to advance patient care.
-
-**Dr. Avanti Bhandarkar**, Mayo Clinic, is a Research Fellow with more than eight years of research experience and a strong background in designing computational models that analyze complex, nuanced, and low-resource data. Her work aims to improve predictive modeling, personalized healthcare, clinical text understanding, and secure AI systems, contributing to the development of trustworthy and data-driven medical AI applications. She graduated from the University of Florida with expertise in generative AI and computational behavioral modeling, where her research focused on developing AI-driven methods to understand human cognitive, behavioral, and stylistic patterns and applying these insights to healthcare and biomedical decision-making.
-
-**Dr. Sumon Biswas**, Case Western Reserve University, is an Assistant Professor of Computer and Data Sciences whose research advances responsible AI engineering, formal verification, and algorithmic fairness, with publications at FSE and ICSE and support from NSF and DARPA. He co-organized the Big Data Summer School at Iowa State University, served as Accessibility Chair for ACM SPLASH 2020 and 2021, sits on the Board of Distinguished Reviewers for ACM TOSEM, and has served on the program committees of ICSE, FSE, and ASE. He co-organized the 1st International Workshop on Software Engineering for and with Trustworthy LLMs (LLMTrust 2026).
-
-**Dr. Amit Kumar Sikder**, Iowa State University, is an Assistant Professor of Computer Science whose research lies at the intersection of computer system forensics, artificial intelligence, and program analysis. He focuses on the security and privacy of connected healthcare systems, security of AI-integrated distributed systems, IoT and cyber-physical system security, and forensic analysis of cross-platform devices and applications. His research has been published in top security conferences including IEEE S&P, USENIX Security, ACM CCS, and NDSS. Before joining Iowa State, he was a Research Scientist at Georgia Tech's School of Cybersecurity and Privacy.
-
-**Dr. Shahnewaz Karim Sakib**, University of Tennessee at Chattanooga, is an Assistant Professor of Computer Science and Engineering whose research advances trustworthy and safe AI, with emphasis on privacy-preserving and federated learning, fairness, explainability, machine unlearning, and adversarial robustness, including recent studies of hallucination and adversarial factuality in LLMs. He earned his Ph.D. from Iowa State University, has published in IEEE TIFS and IEEE TDSC, served as Technical Program Committee Chair for DISTILL 2025, and leads AI ethics and security education through Chattanooga's AI Network.
-
-**Dr. Anindya Bijoy Das**, University of Akron, is an Assistant Professor of Electrical and Computer Engineering whose research spans federated learning, large language models, distributed and coded computation, information theory, and AI/ML applications. He earned his Ph.D. from Iowa State University, where he received the Karas Award for outstanding dissertation, was a postdoctoral researcher at Purdue University, served as Technical Program Committee Chair for DISTILL 2025, and leads an NSF-supported program on practical coded matrix computation.
-
-**Dr. Shibbir Ahmed**, Texas State University, is an Assistant Professor of Computer Science whose research addresses software engineering for trustworthy AI systems at the intersection of AI, data science, and reliable deep learning, with work in venues including ICSE, FSE, EMSE, and ICIP and support from NSF and the U.S. Census Bureau. He co-organized the first IEEE Workshop on Distributed, Secure, and Trustworthy Intelligence with LLMs (DISTILL 2025) and the 1st International Workshop on Software Engineering for and with Trustworthy LLMs (LLMTrust 2026).
+Full bios are available on the [Organization page]({{ '/organization/' | relative_url }}).
 
 ---
 
-## Program Committee
+### Invited Speakers
+
+**Keynote speakers**
+
+<div style="display:flex; justify-content:center; align-items:flex-start; gap:1.5rem; flex-wrap:wrap; margin-bottom:2rem;">
+
+  <div style="text-align:center; width:160px;">
+    <img src="{{ '/assets/img/people/xiaofeng.jpg' | relative_url }}"
+         alt="Xiaofeng Wang" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Xiaofeng Wang</strong><br><em>Cleveland Clinic, USA</em>
+  </div>
+
+  <div style="text-align:center; width:160px;">
+    <img src="{{ '/assets/img/people/anant.jpg' | relative_url }}"
+         alt="Anant Madabhushi" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Anant Madabhushi</strong><br><em>Georgia Tech &amp; Emory University, USA</em>
+  </div>
+
+</div>
+
+**Invited talks**
+
+<div style="display:flex; justify-content:center; align-items:flex-start; gap:1.5rem; flex-wrap:wrap; margin-bottom:3rem;">
+
+  <div style="text-align:center; width:160px;">
+    <img src="{{ '/assets/img/people/robert.jpg' | relative_url }}"
+         alt="Robert Davis" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Robert Davis</strong><br><em>University of Tennessee Health Science Center, USA</em>
+  </div>
+
+  <div style="text-align:center; width:160px;">
+    <img src="{{ '/assets/img/people/vipin.jpg' | relative_url }}"
+         alt="Vipin Chaudhary" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Vipin Chaudhary</strong><br><em>Case Western Reserve University, USA</em>
+  </div>
+
+  <div style="text-align:center; width:160px;">
+    <img src="{{ '/assets/img/people/ritambhara.jpg' | relative_url }}"
+         alt="Ritambhara Singh" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Ritambhara Singh</strong><br><em>Brown University, USA</em>
+  </div>
+
+  <div style="text-align:center; width:160px;">
+    <img src="{{ '/assets/img/people/satish.jpg' | relative_url }}"
+         alt="Satish E. Viswanath" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Satish E. Viswanath</strong><br><em>Emory University, USA</em>
+  </div>
+
+  <div style="text-align:center; width:160px;">
+    <img src="{{ '/assets/img/people/farshid.jpg' | relative_url }}"
+         alt="Farshid Alambeigi" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Farshid Alambeigi</strong><br><em>UT Austin, USA</em>
+  </div>
+
+  <div style="text-align:center; width:160px;">
+    <img src="{{ '/assets/img/people/shuoli.jpg' | relative_url }}"
+         alt="Shuo Li" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Shuo Li</strong><br><em>CWRU &amp; Case Comprehensive Cancer Center, USA</em>
+  </div>
+
+  <div style="text-align:center; width:160px;">
+    <img src="{{ '/assets/img/people/hanson.jpg' | relative_url }}"
+         alt="Heidi Hanson" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Heidi Hanson</strong><br><em>Oak Ridge National Laboratory, USA</em>
+  </div>
+
+</div>
+
+Full speaker details on the [Speakers page]({{ '/speakers/' | relative_url }}).
+
+---
+
+## Participation
+
+ReAL-Health welcomes original short papers, extended abstracts, deployment experience reports, datasets, benchmarks, and position papers. Speculative work and negative results are explicitly in scope.
+
+### Submission Types
+- **Short papers** (4 pages plus references): novel research, methods, or systems.
+- **Extended abstracts** (2 pages): work in progress, position papers, tool or benchmark previews.
+- **Experience reports**: deployment lessons from hospitals, industry, or regulators.
+
+- **Submission site:** OpenReview (link TBA)
+- **Review process:** Double-blind, three program-committee reviews per submission, structured rubric.
+
+### Important Dates (NeurIPS 2026 timeline)
+
+| Milestone | Date |
+| --- | --- |
+| Workshop acceptance notification (to organizers) | July 11, 2026 |
+| CFP and OpenReview site live | Within two weeks of acceptance |
+| Suggested submission deadline | August 29, 2026 (AoE) |
+| Author notification (mandatory) | September 29, 2026 (AoE) |
+| Camera-ready and program | Late October 2026 |
+| Workshop | December 2026 |
+
+> All accepted contributions are non-archival per NeurIPS workshop policy and may appear on OpenReview at authors' option.
+
+Full details on the [Call for Participation page]({{ '/call-for-papers/' | relative_url }}).
+
+### Shared Task
+
+ReAL-Health 2026 will host a community shared task on **reliability and safety in patient-facing LLMs**, built on the publicly available HealthBench rubric. Participants train or prompt models, or build safety guardrails, evaluated against physician-written rubrics covering safety, factuality, refusal behavior, and communication. Top systems present spotlight talks at the workshop, and **Best System** and **Best Student System** awards will be announced at closing. Participation does not require a paper submission.
+
+Full task details, dataset, and timeline on the [Shared Task page]({{ '/shared-task/' | relative_url }}).
+
+---
+
+### Program
+
+The full one-day program spans approximately 8 hours, mixing keynotes, contributed sessions, poster sessions, a panel, and a cross-community working discussion. See the [Schedule page]({{ '/schedule/' | relative_url }}).
+
+---
+
+### Technical Program Committee Members
 
 Our Technical Program Committee comprises researchers spanning machine learning reliability, clinical informatics, security and privacy, federated learning, and software engineering for AI. Members below have confirmed their participation in reviewing for ReAL-Health 2026.
 
 <div style="display:flex; justify-content:center; align-items:flex-start; gap:1.5rem; flex-wrap:wrap; margin-bottom:3rem;">
 
   <div style="text-align:center; width:160px;">
-    <img src="{{ '/assets/img/people/akond.jpg' | relative_url }}"
-         alt="Akond Rahman" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
-    <br><strong>Dr. Akond Rahman</strong><br><em>Auburn University, USA</em>
+    <img src="{{ '/assets/img/people/rahul.jpg' | relative_url }}"
+         alt="Rahul Singh" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Rahul Singh</strong><br><em>University of Rhode Island, USA</em>
   </div>
 
   <div style="text-align:center; width:160px;">
@@ -313,6 +426,30 @@ Our Technical Program Committee comprises researchers spanning machine learning 
     <br><strong>Dr. Feixiong Cheng</strong><br><em>Cleveland Clinic, USA</em>
   </div>
 
+  <div style="text-align:center; width:160px;">
+    <img src="{{ '/assets/img/people/dewan.jpg' | relative_url }}"
+         alt="Dewan Fahim Noor" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Dewan Fahim Noor</strong><br><em>Tuskegee University, USA</em>
+  </div>
+
+  <div style="text-align:center; width:160px;">
+    <img src="{{ '/assets/img/people/chaoyan.jpg' | relative_url }}"
+         alt="Chao Yan" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Chao Yan</strong><br><em>Vanderbilt University, USA</em>
+  </div>
+
+  <div style="text-align:center; width:160px;">
+    <img src="{{ '/assets/img/people/yinghui.jpg' | relative_url }}"
+         alt="Yinghui Wu" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Yinghui Wu</strong><br><em>Case Western Reserve University, USA</em>
+  </div>
+
+  <div style="text-align:center; width:160px;">
+    <img src="{{ '/assets/img/people/jing.jpg' | relative_url }}"
+         alt="Jing Li" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Jing Li</strong><br><em>Case Western Reserve University, USA</em>
+  </div>
+
 </div>
 
-The committee will be expanded as the program nears. To express interest in serving as a reviewer, please [contact the organizers]({{ '/contact/' | relative_url }}).
+The full program committee is also listed on the [Organization page]({{ '/organization/' | relative_url }}).
