@@ -8,7 +8,9 @@ nav_order: 2
 
 # Invited Speakers
 
-ReAL-Health 2026 features seven invited speakers from medical AI, biomedical informatics, healthcare imaging, genomics, and clinical informatics. Talk titles and abstracts will be posted as they become available.
+ReAL-Health 2026 features nine invited speakers spanning clinical AI, biomedical informatics, healthcare imaging, genomics, connected-device security, mechanical engineering for clinical robotics, and population health. Talk titles and abstracts will be posted as they become available.
+
+## Keynote Speakers
 
 <div class="team-container" style="display: flex; flex-direction: column; gap: 1.8rem; margin-top: 1.5rem;">
 
@@ -19,19 +21,6 @@ ReAL-Health 2026 features seven invited speakers from medical AI, biomedical inf
     <div class="speaker-info" style="text-align: left;">
       <p style="margin: 0;"><strong>Dr. Xiaofeng Wang</strong></p>
       <p style="margin: 0 0 0.5rem;"><em>Full Staff Member and Professor, Cleveland Clinic</em></p>
-      <p style="margin: 0;"><strong>Status:</strong> Confirmed</p>
-      <p style="margin: 0;"><strong>Talk title:</strong> TBA</p>
-      <p style="margin: 0;"><strong>Abstract:</strong> TBA</p>
-    </div>
-  </div>
-
-  <div class="team-member" style="display: flex; align-items: flex-start; gap: 1.2rem;">
-    <img src="{{ '/assets/img/people/robert.jpg' | relative_url }}"
-         alt="Robert Davis"
-         style="width: 130px; height: 130px; object-fit: cover; border-radius: 50%; flex-shrink: 0;" />
-    <div class="speaker-info" style="text-align: left;">
-      <p style="margin: 0;"><strong>Dr. Robert Davis</strong></p>
-      <p style="margin: 0 0 0.5rem;"><em>Director, Center for Biomedical Informatics, University of Tennessee Health Science Center</em></p>
       <p style="margin: 0;"><strong>Status:</strong> Confirmed</p>
       <p style="margin: 0;"><strong>Talk title:</strong> TBA</p>
       <p style="margin: 0;"><strong>Abstract:</strong> TBA</p>
@@ -51,13 +40,19 @@ ReAL-Health 2026 features seven invited speakers from medical AI, biomedical inf
     </div>
   </div>
 
+</div>
+
+## Invited Talks
+
+<div class="team-container" style="display: flex; flex-direction: column; gap: 1.8rem; margin-top: 1.5rem;">
+
   <div class="team-member" style="display: flex; align-items: flex-start; gap: 1.2rem;">
-    <img src="{{ '/assets/img/people/ritambhara.jpg' | relative_url }}"
-         alt="Ritambhara Singh"
+    <img src="{{ '/assets/img/people/robert.jpg' | relative_url }}"
+         alt="Robert Davis"
          style="width: 130px; height: 130px; object-fit: cover; border-radius: 50%; flex-shrink: 0;" />
     <div class="speaker-info" style="text-align: left;">
-      <p style="margin: 0;"><strong>Dr. Ritambhara Singh</strong></p>
-      <p style="margin: 0 0 0.5rem;"><em>Associate Professor, Brown University</em></p>
+      <p style="margin: 0;"><strong>Dr. Robert Davis</strong></p>
+      <p style="margin: 0 0 0.5rem;"><em>Director, Center for Biomedical Informatics, University of Tennessee Health Science Center</em></p>
       <p style="margin: 0;"><strong>Status:</strong> Confirmed</p>
       <p style="margin: 0;"><strong>Talk title:</strong> TBA</p>
       <p style="margin: 0;"><strong>Abstract:</strong> TBA</p>
@@ -78,25 +73,64 @@ ReAL-Health 2026 features seven invited speakers from medical AI, biomedical inf
   </div>
 
   <div class="team-member" style="display: flex; align-items: flex-start; gap: 1.2rem;">
-    <img src="{{ '/assets/img/people/satish.jpg' | relative_url }}"
-         alt="Satish E. Viswanath"
+    <img src="{{ '/assets/img/people/ritambhara.jpg' | relative_url }}"
+         alt="Ritambhara Singh"
          style="width: 130px; height: 130px; object-fit: cover; border-radius: 50%; flex-shrink: 0;" />
     <div class="speaker-info" style="text-align: left;">
-      <p style="margin: 0;"><strong>Dr. Satish E. Viswanath</strong></p>
-      <p style="margin: 0 0 0.5rem;"><em>Associate Professor, Emory University</em></p>
-      <p style="margin: 0;"><strong>Status:</strong> Tentative</p>
+      <p style="margin: 0;"><strong>Dr. Ritambhara Singh</strong></p>
+      <p style="margin: 0 0 0.5rem;"><em>Associate Professor, Computer Science, Brown University</em></p>
+      <p style="margin: 0;"><strong>Status:</strong> Confirmed</p>
       <p style="margin: 0;"><strong>Talk title:</strong> TBA</p>
       <p style="margin: 0;"><strong>Abstract:</strong> TBA</p>
     </div>
   </div>
 
   <div class="team-member" style="display: flex; align-items: flex-start; gap: 1.2rem;">
-    <img src="{{ '/assets/img/people/jing.jpg' | relative_url }}"
-         alt="Jing Li"
+    <img src="{{ '/assets/img/people/satish.jpg' | relative_url }}"
+         alt="Satish E. Viswanath"
          style="width: 130px; height: 130px; object-fit: cover; border-radius: 50%; flex-shrink: 0;" />
     <div class="speaker-info" style="text-align: left;">
-      <p style="margin: 0;"><strong>Dr. Jing Li</strong></p>
-      <p style="margin: 0 0 0.5rem;"><em>Professor, Case Western Reserve University</em></p>
+      <p style="margin: 0;"><strong>Dr. Satish E. Viswanath</strong></p>
+      <p style="margin: 0 0 0.5rem;"><em>Associate Professor, Pediatrics and Biomedical Engineering, Emory University</em></p>
+      <p style="margin: 0;"><strong>Status:</strong> Confirmed</p>
+      <p style="margin: 0;"><strong>Talk title:</strong> TBA</p>
+      <p style="margin: 0;"><strong>Abstract:</strong> TBA</p>
+    </div>
+  </div>
+
+  <div class="team-member" style="display: flex; align-items: flex-start; gap: 1.2rem;">
+    <img src="{{ '/assets/img/people/farshid.jpg' | relative_url }}"
+         alt="Farshid Alambeigi"
+         style="width: 130px; height: 130px; object-fit: cover; border-radius: 50%; flex-shrink: 0;" />
+    <div class="speaker-info" style="text-align: left;">
+      <p style="margin: 0;"><strong>Dr. Farshid Alambeigi</strong></p>
+      <p style="margin: 0 0 0.5rem;"><em>Associate Professor, Mechanical Engineering, University of Texas at Austin</em></p>
+      <p style="margin: 0;"><strong>Status:</strong> Confirmed</p>
+      <p style="margin: 0;"><strong>Talk title:</strong> TBA</p>
+      <p style="margin: 0;"><strong>Abstract:</strong> TBA</p>
+    </div>
+  </div>
+
+  <div class="team-member" style="display: flex; align-items: flex-start; gap: 1.2rem;">
+    <img src="{{ '/assets/img/people/shuo.jpg' | relative_url }}"
+         alt="Shuo Li"
+         style="width: 130px; height: 130px; object-fit: cover; border-radius: 50%; flex-shrink: 0;" />
+    <div class="speaker-info" style="text-align: left;">
+      <p style="margin: 0;"><strong>Dr. Shuo Li</strong></p>
+      <p style="margin: 0 0 0.5rem;"><em>Professor, Case Western Reserve University and Case Comprehensive Cancer Center</em></p>
+      <p style="margin: 0;"><strong>Status:</strong> Confirmed</p>
+      <p style="margin: 0;"><strong>Talk title:</strong> TBA</p>
+      <p style="margin: 0;"><strong>Abstract:</strong> TBA</p>
+    </div>
+  </div>
+
+  <div class="team-member" style="display: flex; align-items: flex-start; gap: 1.2rem;">
+    <img src="{{ '/assets/img/people/heidi.jpg' | relative_url }}"
+         alt="Heidi Hanson"
+         style="width: 130px; height: 130px; object-fit: cover; border-radius: 50%; flex-shrink: 0;" />
+    <div class="speaker-info" style="text-align: left;">
+      <p style="margin: 0;"><strong>Dr. Heidi Hanson</strong></p>
+      <p style="margin: 0 0 0.5rem;"><em>Group Leader, Biostatistics and Multiscale System Modeling, Oak Ridge National Laboratory</em></p>
       <p style="margin: 0;"><strong>Status:</strong> Confirmed</p>
       <p style="margin: 0;"><strong>Talk title:</strong> TBA</p>
       <p style="margin: 0;"><strong>Abstract:</strong> TBA</p>
