@@ -121,6 +121,12 @@ Full bios are available on the [Organization page]({{ '/organization/' | relativ
     <br><strong>Dr. Anant Madabhushi</strong><br><em>Georgia Tech &amp; Emory University, USA</em>
   </div>
 
+  <div style="text-align:center; width:160px;">
+    <img src="{{ '/assets/img/people/james.jpg' | relative_url }}"
+         alt="James Zou" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. James Zou</strong><br><em>Stanford University, USA</em>
+  </div>
+
 </div>
 
 **Invited talks**
@@ -167,6 +173,18 @@ Full bios are available on the [Organization page]({{ '/organization/' | relativ
     <img src="{{ '/assets/img/people/heidi.jpg' | relative_url }}"
          alt="Heidi Hanson" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
     <br><strong>Dr. Heidi Hanson</strong><br><em>Oak Ridge National Laboratory, USA</em>
+  </div>
+
+  <div style="text-align:center; width:160px;">
+    <img src="{{ '/assets/img/people/lei.jpg' | relative_url }}"
+         alt="Lei Xing" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Lei Xing</strong><br><em>Stanford University, USA</em>
+  </div>
+
+  <div style="text-align:center; width:160px;">
+    <img src="{{ '/assets/img/people/yanmin.jpg' | relative_url }}"
+         alt="Yanmin Gong" style="width:100px; height:100px; object-fit:cover; border-radius:50%;" />
+    <br><strong>Dr. Yanmin Gong</strong><br><em>Texas A&amp;M University, USA</em>
   </div>
 
 </div>
